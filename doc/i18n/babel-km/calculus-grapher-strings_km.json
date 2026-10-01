@@ -1,0 +1,719 @@
+{
+  "calculus-grapher.title": {
+    "value": "ក្រាហ្វគណិតវិភាគ"
+  },
+  "screen.derivative": {
+    "value": "ដេរីវេ"
+  },
+  "screen.integral": {
+    "value": "អាំងតេក្រាល"
+  },
+  "screen.advanced": {
+    "value": "កម្រិតខ្ពស់"
+  },
+  "screen.lab": {
+    "value": "បន្ទប់ពិសោធន៍"
+  },
+  "smooth": {
+    "value": "រលូន"
+  },
+  "symbol.d": {
+    "value": "d"
+  },
+  "symbol.f": {
+    "value": "f"
+  },
+  "symbol.x": {
+    "value": "x"
+  },
+  "symbol.t": {
+    "value": "t"
+  },
+  "discontinuities": {
+    "value": "ភាពមិនជាប់"
+  },
+  "values": {
+    "value": "តម្លៃ"
+  },
+  "notation": {
+    "value": "និមិត្តសញ្ញា"
+  },
+  "lagrange": {
+    "value": "Lagrange:"
+  },
+  "leibniz": {
+    "value": "Leibniz:"
+  },
+  "variable": {
+    "value": "អថេរ"
+  },
+  "checkbox.areaUnderCurve": {
+    "value": "ផ្ទៃក្រឡាក្រោម<br>ខ្សែក្រាហ្វ"
+  },
+  "checkbox.tangent": {
+    "value": "បន្ទាត់ប៉ះ"
+  },
+  "barometer.netSignedArea": {
+    "value": "ផ្ទៃក្រឡាសរុប<br>គិតសញ្ញា"
+  },
+  "barometer.slopeOfTangent": {
+    "value": "មេគុណប្រាប់ទិសនៃ<br>បន្ទាត់ប៉ះ"
+  },
+  "predict": {
+    "value": "ទស្សន៍ទាយ"
+  },
+  "show": {
+    "value": "បង្ហាញ"
+  },
+  "predictPreference": {
+    "value": "ទស្សន៍ទាយ"
+  },
+  "valuesPreferenceDescription": {
+    "value": "បង្ហាញតម្លៃនៅលើអ័ក្សក្រាហ្វ បន្ទាត់យោង \"មេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះ\" និង \"ផ្ទៃក្រឡាសរុបគិតសញ្ញា\"។"
+  },
+  "predictPreferenceDescription": {
+    "value": "បន្ថែមទម្រង់ដែលអនុញ្ញាតឱ្យអ្នកទស្សន៍ទាយ f នៃ {{variable}}។"
+  },
+  "referenceLine": {
+    "value": "បន្ទាត់<br>យោង"
+  },
+  "curveManipulatorKeyboardCue": {
+    "value": "ដើម្បី<b>ចាប់យក</b> ឬ<b>លែង</b>ខ្សែក្រាហ្វ"
+  },
+  "keyboardHelp.curveManipulator": {
+    "value": "ឧបករណ៍កែប្រែខ្សែក្រាហ្វ"
+  },
+  "keyboardHelp.grabOrReleaseCurve": {
+    "value": "ចាប់យក ឬលែងខ្សែក្រាហ្វ"
+  },
+  "keyboardHelp.tangentToolOrReferenceLine": {
+    "value": "ឧបករណ៍បន្ទាត់ប៉ះ ឬបន្ទាត់យោង"
+  },
+  "keyboardHelp.areaUnderCurveToolOrReferenceLine": {
+    "value": "ឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ ឬបន្ទាត់យោង"
+  },
+  "keyboardHelp.referenceLine": {
+    "value": "បន្ទាត់យោង"
+  },
+  "a11y.screens.defaults.screenSummary.currentDetails.leadingParagraph.widthPattern": {
+    "value": "ឥឡូវនេះ ប្រភេទនៃការកែប្រែខ្សែក្រាហ្វគឺ {$curveManipulationType}។ ទទឹងរូបរាងគឺ {$width}។ {$curveSentence}"
+  },
+  "a11y.screens.defaults.screenSummary.currentDetails.leadingParagraph.noWidthPattern": {
+    "value": "ឥឡូវនេះ ប្រភេទនៃការកែប្រែខ្សែក្រាហ្វគឺ {$curveManipulationType}។ {$curveSentence}"
+  },
+  "a11y.screens.defaults.screenSummary.currentDetails.leadingParagraph.curveSentence.curvesShown": {
+    "value": "ខ្សែក្រាហ្វដែលបង្ហាញរួមមាន៖"
+  },
+  "a11y.screens.defaults.screenSummary.currentDetails.leadingParagraph.curveSentence.allCurvesHidden": {
+    "value": "ខ្សែក្រាហ្វទាំងអស់ត្រូវបានលាក់។"
+  },
+  "a11y.screens.defaults.screenSummary.currentDetails.accessibleList.primary": {
+    "value": "f, ក្នុងផ្ទៃក្រាហ្វចម្បង"
+  },
+  "a11y.screens.defaults.screenSummary.currentDetails.accessibleList.predict": {
+    "value": "ទស្សន៍ទាយ f, ក្នុងផ្ទៃក្រាហ្វចម្បង"
+  },
+  "a11y.screens.defaults.screenSummary.currentDetails.accessibleList.integral": {
+    "value": "អាំងតេក្រាល, ក្នុងផ្ទៃក្រាហ្វអាំងតេក្រាល"
+  },
+  "a11y.screens.defaults.screenSummary.currentDetails.accessibleList.derivative": {
+    "value": "ដេរីវេ, ក្នុងផ្ទៃក្រាហ្វដេរីវេ"
+  },
+  "a11y.screens.defaults.screenSummary.currentDetails.accessibleList.secondDerivative": {
+    "value": "ដេរីវេទីពីរ, ក្នុងផ្ទៃក្រាហ្វដេរីវេទីពីរ"
+  },
+  "a11y.screens.defaults.screenSummary.controlArea": {
+    "value": "អ្នកអាចបន្ថែមឧបករណ៍រុករកទៅកាន់ផ្ទៃក្រាហ្វនានា ដើម្បីជួយផ្សារភ្ជាប់ទំនាក់ទំនងរវាងតម្លៃនៅលើក្រាហ្វនីមួយៗ។\nកំណត់ការពិសោធន៍ឡើងវិញដើម្បីចាប់ផ្តើមសារជាថ្មី។"
+  },
+  "a11y.screens.derivative.screenButtonsHelpText": {
+    "value": "កែប្រែក្រាហ្វ និងរុករកខ្សែក្រាហ្វដេរីវេរបស់វាជាក់ស្ដែងភ្លាមៗ។"
+  },
+  "a11y.screens.derivative.screenSummary.playArea": {
+    "value": "មានខ្សែក្រាហ្វអន្តរកម្មមួយនៅក្នុងផ្ទៃក្រាហ្វចម្បងដែលតំណាងឱ្យក្រាហ្វនៃ f និងខ្សែក្រាហ្វមិនអន្តរកម្មដែលទាញចេញមកដែលតំណាងឱ្យដេរីវេនៃ f។ អ្នកអាចជ្រើសរើសប្រភេទនៃការកែប្រែខ្សែក្រាហ្វ ដើម្បីកែប្រែខ្សែក្រាហ្វតាមវិធីផ្សេងៗគ្នានៅក្នុងផ្ទៃក្រាហ្វចម្បងនៅគ្រប់ចំណុច។ មានឧបករណ៍រុករកដែលអនុញ្ញាតឱ្យមានការស៊ើបអង្កេតយ៉ាងបត់បែនលើគ្រប់ខ្សែក្រាហ្វទាំងអស់ដោយតម្រឹមជាមួយកូអរដោណេ {$variable}។"
+  },
+  "a11y.screens.derivative.screenSummary.interactionHint": {
+    "value": "ចាប់ផ្តើមដោយស្វែងរកឧបករណ៍កែប្រែខ្សែក្រាហ្វ។ ចាប់យកឧបករណ៍កែប្រែដើម្បីកែប្រែខ្សែក្រាហ្វក្នុងទិសដៅណាមួយ។\nប្រើឧបករណ៍រុករកដើម្បីពិនិត្យមើលចំណោទនៃខ្សែក្រាហ្វ f នៅចំណុចផ្សេងៗគ្នា។"
+  },
+  "a11y.screens.integral.screenButtonsHelpText": {
+    "value": "កែប្រែក្រាហ្វ និងរុករកខ្សែក្រាហ្វអាំងតេក្រាលរបស់វាជាក់ស្ដែងភ្លាមៗ។"
+  },
+  "a11y.screens.integral.screenSummary.playArea": {
+    "value": "មានខ្សែក្រាហ្វអន្តរកម្មមួយនៅក្នុងផ្ទៃក្រាហ្វចម្បងដែលតំណាងឱ្យក្រាហ្វនៃ f និងខ្សែក្រាហ្វមិនអន្តរកម្មដែលទាញចេញមកដែលតំណាងឱ្យអាំងតេក្រាលនៃ f។ អ្នកអាចជ្រើសរើសប្រភេទនៃការកែប្រែខ្សែក្រាហ្វ ដើម្បីកែប្រែខ្សែក្រាហ្វតាមវិធីផ្សេងៗគ្នានៅក្នុងផ្ទៃក្រាហ្វចម្បងនៅគ្រប់ចំណុច។ មានឧបករណ៍រុករកដែលអនុញ្ញាតឱ្យមានការស៊ើបអង្កេតយ៉ាងបត់បែនលើគ្រប់ខ្សែក្រាហ្វទាំងអស់ដោយតម្រឹមជាមួយកូអរដោណេ {$variable}។"
+  },
+  "a11y.screens.integral.screenSummary.interactionHint": {
+    "value": "ចាប់ផ្តើមដោយស្វែងរកឧបករណ៍កែប្រែខ្សែក្រាហ្វ។ ចាប់យកឧបករណ៍កែប្រែដើម្បីកែប្រែខ្សែក្រាហ្វក្នុងទិសដៅណាមួយ។\nប្រើឧបករណ៍រុករកដើម្បីពិនិត្យមើលផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f កំណត់ដោយអ័ក្សដេក និង f នៃ {$variable} ចាប់ផ្តើមពីខាងឆ្វេង។"
+  },
+  "a11y.screens.advanced.screenButtonsHelpText": {
+    "value": "កែប្រែក្រាហ្វ និងរុករកខ្សែក្រាហ្វដេរីវេ និងអាំងតេក្រាលរបស់វាជាក់ស្ដែងភ្លាមៗ ដោយមាន ឬគ្មានភាពមិនជាប់។"
+  },
+  "a11y.screens.advanced.screenSummary.playArea": {
+    "value": "មានខ្សែក្រាហ្វអន្តរកម្មមួយនៅក្នុងផ្ទៃក្រាហ្វចម្បងដែលតំណាងឱ្យក្រាហ្វនៃ f និងខ្សែក្រាហ្វមិនអន្តរកម្មដែលទាញចេញមកនៅក្នុងផ្ទៃក្រាហ្វផ្សេងទៀត។ អ្នកអាចជ្រើសរើសប្រភេទនៃការកែប្រែខ្សែក្រាហ្វ ដើម្បីកែប្រែខ្សែក្រាហ្វតាមវិធីផ្សេងៗគ្នានៅក្នុងផ្ទៃក្រាហ្វចម្បងនៅគ្រប់ចំណុច។ អ្នកអាចផ្លាស់ប្តូរសំណុំផ្ទៃក្រាហ្វទាំងពីរដែលអាចមើលបាន៖ អាំងតេក្រាល និងចម្បង ឬចម្បង និងដេរីវេ។ មានឧបករណ៍រុករកដែលអនុញ្ញាតឱ្យមានការស៊ើបអង្កេតយ៉ាងបត់បែនលើគ្រប់ខ្សែក្រាហ្វដែលអាចមើលបានទាំងអស់ដោយតម្រឹមជាមួយកូអរដោណេ {$variable}។"
+  },
+  "a11y.screens.advanced.screenSummary.interactionHint": {
+    "value": "ចាប់ផ្តើមដោយស្វែងរកឧបករណ៍កែប្រែខ្សែក្រាហ្វ។ ចាប់យកឧបករណ៍កែប្រែដើម្បីកែប្រែខ្សែក្រាហ្វក្នុងទិសដៅណាមួយ។\nប្រើឧបករណ៍រុករកដើម្បីស្វែងយល់ពីទំនាក់ទំនងរវាងក្រាហ្វក្នុងសំណុំក្រាហ្វដែលអាចមើលបាន។"
+  },
+  "a11y.screens.lab.screenButtonsHelpText": {
+    "value": "កែប្រែក្រាហ្វ និងរុករកខ្សែក្រាហ្វអាំងតេក្រាល ដេរីវេ និងដេរីវេទីពីររបស់វាជាក់ស្ដែងភ្លាមៗ ដោយមាន ឬគ្មានភាពមិនជាប់។"
+  },
+  "a11y.screens.lab.screenSummary.playArea": {
+    "value": "មានខ្សែក្រាហ្វអន្តរកម្មមួយនៅក្នុងផ្ទៃក្រាហ្វចម្បងដែលតំណាងឱ្យក្រាហ្វនៃ f និងខ្សែក្រាហ្វមិនអន្តរកម្មដែលទាញចេញមកនៅក្នុងផ្ទៃក្រាហ្វផ្សេងទៀត។ អ្នកអាចជ្រើសរើសប្រភេទនៃការកែប្រែខ្សែក្រាហ្វ ដើម្បីកែប្រែខ្សែក្រាហ្វតាមវិធីផ្សេងៗគ្នានៅក្នុងផ្ទៃក្រាហ្វចម្បងនៅគ្រប់ចំណុច។ អ្នកអាចផ្លាស់ប្តូរសំណុំផ្ទៃក្រាហ្វទាំងបីដែលអាចមើលបាន៖ អាំងតេក្រាល ចម្បង និងដេរីវេ ឬចម្បង ដេរីវេ និងដេរីវេទីពីរ។ មានឧបករណ៍រុករកដែលអនុញ្ញាតឱ្យមានការស៊ើបអង្កេតយ៉ាងបត់បែនលើគ្រប់ខ្សែក្រាហ្វទាំងអស់ដោយតម្រឹមជាមួយកូអរដោណេ {$variable}។"
+  },
+  "a11y.screens.lab.screenSummary.interactionHint": {
+    "value": "ចាប់ផ្តើមដោយស្វែងរកឧបករណ៍កែប្រែខ្សែក្រាហ្វ។ ចាប់យកឧបករណ៍កែប្រែដើម្បីកែប្រែខ្សែក្រាហ្វក្នុងទិសដៅណាមួយ។\nប្រើឧបករណ៍រុករកដើម្បីស្វែងយល់ពីទំនាក់ទំនងរវាងក្រាហ្វក្នុងសំណុំក្រាហ្វដែលអាចមើលបាន។"
+  },
+  "a11y.slopeOfTangentAccordionBox.accessibleHelpTextCollapsed": {
+    "value": "រុករកមេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះទៅនឹងខ្សែក្រាហ្វ f ត្រង់កូអរដោណេ {$variable} នៃឧបករណ៍បន្ទាត់ប៉ះ។"
+  },
+  "a11y.slopeOfTangentAccordionBox.accessibleParagraph.zero": {
+    "value": "ត្រង់ {$variable} ស្មើ {$x} មេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះទៅនឹង f គឺសូន្យ។"
+  },
+  "a11y.slopeOfTangentAccordionBox.accessibleParagraph.positive": {
+    "value": "ត្រង់ {$variable} ស្មើ {$x} មេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះទៅនឹង f គឺវិជ្ជមាន {$absoluteSlope}។"
+  },
+  "a11y.slopeOfTangentAccordionBox.accessibleParagraph.negative": {
+    "value": "ត្រង់ {$variable} ស្មើ {$x} មេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះទៅនឹង f គឺអវិជ្ជមាន {$absoluteSlope}។"
+  },
+  "a11y.netSignedAreaAccordionBox.accessibleHelpTextCollapsed": {
+    "value": "រុករកផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f នៅចន្លោះ {$variable} ស្មើ 0 និងកូអរដោណេ\n{$variable} បច្ចុប្បន្ននៃឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ។"
+  },
+  "a11y.netSignedAreaAccordionBox.accessibleParagraph.zero": {
+    "value": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f គឺសូន្យនៅចន្លោះ {$variable} ស្មើ 0 និង {$x}។"
+  },
+  "a11y.netSignedAreaAccordionBox.accessibleParagraph.positive": {
+    "value": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f គឺវិជ្ជមាន {$absoluteArea} នៅចន្លោះ {$variable} ស្មើ 0 និង {$x}។"
+  },
+  "a11y.netSignedAreaAccordionBox.accessibleParagraph.negative": {
+    "value": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f គឺអវិជ្ជមាន {$absoluteArea} នៅចន្លោះ {$variable} ស្មើ 0 និង {$x}។"
+  },
+  "a11y.checkboxGroup.accessibleHeading": {
+    "value": "ការបញ្ជាឧបករណ៍រុករក"
+  },
+  "a11y.tangentCheckbox.accessibleHelpText": {
+    "value": "បន្ថែម ឬដកចេញនូវឧបករណ៍បន្ទាត់ប៉ះ ដើម្បីបង្កើតទំនាក់ទំនងរវាងក្រាហ្វនានា។"
+  },
+  "a11y.tangentCheckbox.accessibleContextResponseChecked": {
+    "value": "បានបន្ថែមឧបករណ៍បន្ទាត់ប៉ះ។"
+  },
+  "a11y.tangentCheckbox.accessibleContextResponseUnchecked": {
+    "value": "បានដកឧបករណ៍បន្ទាត់ប៉ះចេញ។"
+  },
+  "a11y.referenceLineCheckbox.accessibleName": {
+    "value": "បន្ទាត់យោង"
+  },
+  "a11y.referenceLineCheckbox.accessibleHelpText": {
+    "value": "បន្ថែម ឬដកចេញនូវបន្ទាត់យោងបញ្ឈរ ដើម្បីតម្រឹមកូអរដោណេ {$variable} នៅលើក្រាហ្វទាំងអស់។"
+  },
+  "a11y.referenceLineCheckbox.accessibleContextResponseChecked": {
+    "value": "បានបន្ថែមបន្ទាត់យោង។"
+  },
+  "a11y.referenceLineCheckbox.accessibleContextResponseUnchecked": {
+    "value": "បានដកបន្ទាត់យោងចេញ។"
+  },
+  "a11y.areaUnderCurveCheckbox.accessibleName": {
+    "value": "ឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ"
+  },
+  "a11y.areaUnderCurveCheckbox.accessibleHelpText": {
+    "value": "បន្ថែម ឬដកចេញនូវឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ និងការដាក់ស្រមោលក្រោមខ្សែក្រាហ្វដែលកំណត់ដោយអ័ក្សដេក និង f។"
+  },
+  "a11y.areaUnderCurveCheckbox.accessibleContextResponseChecked": {
+    "value": "បានបន្ថែមឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ។"
+  },
+  "a11y.areaUnderCurveCheckbox.accessibleContextResponseUnchecked": {
+    "value": "បានដកឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វចេញ។"
+  },
+  "a11y.gridCheckbox.accessibleName": {
+    "value": "បណ្ដាញក្រឡាកូអរដោណេ"
+  },
+  "a11y.gridCheckbox.accessibleHelpText": {
+    "value": "បង្ហាញ ឬលាក់បណ្ដាញក្រឡាកូអរដោណេនៅលើក្រាហ្វទាំងអស់។"
+  },
+  "a11y.gridCheckbox.accessibleContextResponseChecked": {
+    "value": "បានបង្ហាញបណ្ដាញក្រឡាកូអរដោណេ។"
+  },
+  "a11y.gridCheckbox.accessibleContextResponseUnchecked": {
+    "value": "បានលាក់បណ្ដាញក្រឡាកូអរដោណេ។"
+  },
+  "a11y.showPrimaryCurveCheckbox.accessibleName": {
+    "value": "បង្ហាញ f នៃ {$variable}"
+  },
+  "a11y.showPrimaryCurveCheckbox.accessibleHelpText": {
+    "value": "បង្ហាញ ឬលាក់ f នៃ {$variable} ដើម្បីប្រៀបធៀបរូបរាងដែលអ្នកបានទស្សន៍ទាយទៅនឹងរូបរាងនៃ f នៃ {$variable}។"
+  },
+  "a11y.showPrimaryCurveCheckbox.accessibleContextResponseChecked": {
+    "value": "បានបង្ហាញ f នៃ {$variable}។"
+  },
+  "a11y.showPrimaryCurveCheckbox.accessibleContextResponseUnchecked": {
+    "value": "បានលាក់ f នៃ {$variable}។"
+  },
+  "a11y.curveManipulationType.hill": {
+    "value": "ទួលភ្នំដែលមានការផ្លាស់ប្តូររលូនទៅ f នៃ {$variable}"
+  },
+  "a11y.curveManipulationType.triangle": {
+    "value": "រាងអក្សរ V រឹងដែលមានការផ្លាស់ប្តូរស្រួចទៅ f នៃ {$variable}"
+  },
+  "a11y.curveManipulationType.pedestal": {
+    "value": "ជើងទម្រដែលមានការផ្លាស់ប្តូររលូនទៅ f នៃ {$variable}"
+  },
+  "a11y.curveManipulationType.parabola": {
+    "value": "ប៉ារ៉ាបូលដែលមានការផ្លាស់ប្តូរស្រួចទៅ f នៃ {$variable}"
+  },
+  "a11y.curveManipulationType.sinusoid": {
+    "value": "ស៊ីនុសូអ៊ីត"
+  },
+  "a11y.curveManipulationType.freeform": {
+    "value": "ទម្រង់សេរី ងាយនឹងមានភាពមិនជាប់"
+  },
+  "a11y.curveManipulationType.tilt": {
+    "value": "ភាពផ្អៀងតាមអង្កត់ទ្រូងដែលខ្ទាស់នៅគែមខាងឆ្វេង"
+  },
+  "a11y.curveManipulationType.shift": {
+    "value": "ការរំកិលបញ្ឈរឡើងលើ ឬចុះក្រោម"
+  },
+  "a11y.graphAreas.defaults.accessibleList.leadingParagraph": {
+    "value": "ឥឡូវនេះ,"
+  },
+  "a11y.graphAreas.defaults.accessibleList.coordinateGridShown": {
+    "value": "បានបង្ហាញបណ្ដាញក្រឡាកូអរដោណេ។"
+  },
+  "a11y.graphAreas.defaults.accessibleList.valuesLabeledOnAxes": {
+    "value": "តម្លៃត្រូវបានដាក់ស្លាកនៅលើអ័ក្ស។"
+  },
+  "a11y.graphAreas.primary.accessibleHeading": {
+    "value": "ផ្ទៃក្រាហ្វចម្បង"
+  },
+  "a11y.graphAreas.primary.accessibleList.primaryCurve.continuousAndDifferentiable": {
+    "value": "f គឺជាប់ និងមានដេរីវេនៅគ្រប់ចំណុច។"
+  },
+  "a11y.graphAreas.primary.accessibleList.primaryCurve.hasDiscontinuities": {
+    "value": "f គ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន។"
+  },
+  "a11y.graphAreas.primary.accessibleList.primaryCurve.hasCusps": {
+    "value": "f គឺជាប់ ប៉ុន្តែគ្មានដេរីវេត្រង់ចំណុចស្រួចមួយ ឬច្រើន។"
+  },
+  "a11y.graphAreas.primary.accessibleList.primaryCurve.hasDiscontinuitiesAndCusps": {
+    "value": "f គ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន និងចំណុចស្រួចមួយ ឬច្រើន។"
+  },
+  "a11y.graphAreas.primary.accessibleList.primaryCurve.hidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វ f។"
+  },
+  "a11y.graphAreas.primary.accessibleList.predictCurve.continuousAndDifferentiable": {
+    "value": "ទស្សន៍ទាយ f គឺជាប់ និងមានដេរីវេនៅគ្រប់ចំណុច។"
+  },
+  "a11y.graphAreas.primary.accessibleList.predictCurve.hasDiscontinuities": {
+    "value": "ទស្សន៍ទាយ f គ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន។"
+  },
+  "a11y.graphAreas.primary.accessibleList.predictCurve.hasCusps": {
+    "value": "ទស្សន៍ទាយ f គឺជាប់ ប៉ុន្តែគ្មានដេរីវេត្រង់ចំណុចស្រួចមួយ ឬច្រើន។"
+  },
+  "a11y.graphAreas.primary.accessibleList.predictCurve.hasDiscontinuitiesAndCusps": {
+    "value": "ទស្សន៍ទាយ f គ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន និងចំណុចស្រួចមួយ ឬច្រើន។"
+  },
+  "a11y.graphAreas.primary.accessibleList.predictCurve.hidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វទស្សន៍ទាយ f។"
+  },
+  "a11y.graphAreas.integral.accessibleHeading": {
+    "value": "ផ្ទៃក្រាហ្វអាំងតេក្រាល"
+  },
+  "a11y.graphAreas.integral.accessibleList.continuous": {
+    "value": "ខ្សែក្រាហ្វអាំងតេក្រាលគឺជាប់ ហើយតំណាងឱ្យអាំងតេក្រាលកំណត់ពីសូន្យដល់ {$variable} សម្រាប់ f នៃ {$variable}។"
+  },
+  "a11y.graphAreas.integral.accessibleList.hidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វអាំងតេក្រាល។"
+  },
+  "a11y.graphAreas.derivative.accessibleHeading": {
+    "value": "ផ្ទៃក្រាហ្វដេរីវេ"
+  },
+  "a11y.graphAreas.derivative.accessibleList.continuous": {
+    "value": "ខ្សែក្រាហ្វដេរីវេគឺជាប់ និងមានដេរីវេនៅគ្រប់ចំណុច។"
+  },
+  "a11y.graphAreas.derivative.accessibleList.discontinuous": {
+    "value": "ខ្សែក្រាហ្វដេរីវេគ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន។"
+  },
+  "a11y.graphAreas.derivative.accessibleList.hidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វដេរីវេ។"
+  },
+  "a11y.graphAreas.secondDerivative.accessibleHeading": {
+    "value": "ផ្ទៃក្រាហ្វដេរីវេទីពីរ"
+  },
+  "a11y.graphAreas.secondDerivative.accessibleList.continuous": {
+    "value": "ខ្សែក្រាហ្វដេរីវេទីពីរគឺជាប់ និងមានដេរីវេនៅគ្រប់ចំណុច។"
+  },
+  "a11y.graphAreas.secondDerivative.accessibleList.discontinuous": {
+    "value": "ខ្សែក្រាហ្វដេរីវេទីពីរគ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន។"
+  },
+  "a11y.graphAreas.secondDerivative.accessibleList.hidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វដេរីវេទីពីរ។"
+  },
+  "a11y.curveManipulatorAndSettings": {
+    "value": "ឧបករណ៍កែប្រែខ្សែក្រាហ្វ និងការកំណត់"
+  },
+  "a11y.curveActionsButtonGroup.accessibleHeading": {
+    "value": "សកម្មភាពលើខ្សែក្រាហ្វ"
+  },
+  "a11y.curveActionsButtonGroup.accessibleHelpText": {
+    "value": "ជ្រើសរើសសកម្មភាពដែលត្រូវអនុវត្តលើខ្សែក្រាហ្វក្នុងផ្ទៃក្រាហ្វចម្បង។"
+  },
+  "a11y.smoothButton.accessibleName": {
+    "value": "រលូន"
+  },
+  "a11y.smoothButton.accessibleHelpText": {
+    "value": "ធ្វើឱ្យគែមស្រួច និងភាពមិនជាប់នៃខ្សែក្រាហ្វក្នុងផ្ទៃក្រាហ្វចម្បងមានសភាពរលូន។"
+  },
+  "a11y.smoothButton.accessibleContextResponse.allCurves": {
+    "value": "បានធ្វើឱ្យ f និងខ្សែក្រាហ្វទាញចេញទាំងអស់មានសភាពរលូន។"
+  },
+  "a11y.smoothButton.accessibleContextResponse.predictCurve": {
+    "value": "បានធ្វើឱ្យខ្សែក្រាហ្វទស្សន៍ទាយតែប៉ុណ្ណោះមានសភាពរលូន។"
+  },
+  "a11y.eraserButton.accessibleName": {
+    "value": "លុបការកែប្រែខ្សែក្រាហ្វ"
+  },
+  "a11y.eraserButton.accessibleHelpText": {
+    "value": "កំណត់ខ្សែក្រាហ្វឡើងវិញទៅ y ស្មើ 0 ដោយរក្សាការកំណត់ការកែប្រែខ្សែក្រាហ្វដដែល។"
+  },
+  "a11y.eraserButton.accessibleContextResponse.primaryCurve": {
+    "value": "បានកំណត់ f និងខ្សែក្រាហ្វទាញចេញឡើងវិញ ដោយការកំណត់មិនផ្លាស់ប្តូរ។"
+  },
+  "a11y.eraserButton.accessibleContextResponse.predictCurve": {
+    "value": "បានកំណត់ខ្សែក្រាហ្វទស្សន៍ទាយឡើងវិញ ដោយខ្សែក្រាហ្វផ្សេងទៀត និងការកំណត់មិនផ្លាស់ប្តូរ។"
+  },
+  "a11y.undoButton.accessibleName": {
+    "value": "មិនធ្វើវិញ"
+  },
+  "a11y.undoButton.accessibleHelpText": {
+    "value": "មិនធ្វើវិញនូវការកែប្រែខ្សែក្រាហ្វថ្មីៗបំផុត។"
+  },
+  "a11y.undoButton.accessibleContextResponse.primaryCurve": {
+    "value": "ការកែប្រែចុងក្រោយត្រូវបានដកចេញពី f និងខ្សែក្រាហ្វទាញចេញ។"
+  },
+  "a11y.undoButton.accessibleContextResponse.predictCurve": {
+    "value": "ការកែប្រែចុងក្រោយត្រូវបានដកចេញពីខ្សែក្រាហ្វទស្សន៍ទាយតែប៉ុណ្ណោះ។"
+  },
+  "a11y.yZoomButtonGroup.zoomInButton.accessibleName.integral": {
+    "value": "ពង្រីកអ័ក្ស y នៃអាំងតេក្រាល"
+  },
+  "a11y.yZoomButtonGroup.zoomInButton.accessibleName.derivative": {
+    "value": "ពង្រីកអ័ក្ស y នៃដេរីវេ"
+  },
+  "a11y.yZoomButtonGroup.zoomInButton.accessibleName.secondDerivative": {
+    "value": "ពង្រីកអ័ក្ស y នៃដេរីវេទីពីរ"
+  },
+  "a11y.yZoomButtonGroup.zoomInButton.accessibleHelpText": {
+    "value": "ពង្រីកតែលើអ័ក្ស y ប៉ុណ្ណោះ។"
+  },
+  "a11y.yZoomButtonGroup.zoomInButton.accessibleContextResponse": {
+    "value": "បានពង្រីក, ដែនកំណត់ y ពី {$min} ដល់ {$max}"
+  },
+  "a11y.yZoomButtonGroup.zoomOutButton.accessibleName.integral": {
+    "value": "បង្រួមអ័ក្ស y នៃអាំងតេក្រាល"
+  },
+  "a11y.yZoomButtonGroup.zoomOutButton.accessibleName.derivative": {
+    "value": "បង្រួមអ័ក្ស y នៃដេរីវេ"
+  },
+  "a11y.yZoomButtonGroup.zoomOutButton.accessibleName.secondDerivative": {
+    "value": "បង្រួមអ័ក្ស y នៃដេរីវេទីពីរ"
+  },
+  "a11y.yZoomButtonGroup.zoomOutButton.accessibleHelpText": {
+    "value": "បង្រួមតែលើអ័ក្ស y ប៉ុណ្ណោះ។"
+  },
+  "a11y.yZoomButtonGroup.zoomOutButton.accessibleContextResponse": {
+    "value": "បានបង្រួម, ដែនកំណត់ y ពី {$min} ដល់ {$max}"
+  },
+  "a11y.predictRadioButtonGroup.accessibleName": {
+    "value": "ខ្សែក្រាហ្វដែលត្រូវកែប្រែ"
+  },
+  "a11y.predictRadioButtonGroup.accessibleHelpText": {
+    "value": "ជ្រើសរើសខ្សែក្រាហ្វដែលអាចកែប្រែបាននៅក្នុងផ្ទៃក្រាហ្វចម្បង។"
+  },
+  "a11y.predictRadioButtonGroup.primaryCurveRadioButton.accessibleName": {
+    "value": "f នៃ {$variable}"
+  },
+  "a11y.predictRadioButtonGroup.primaryCurveRadioButton.accessibleContextResponse": {
+    "value": "ខ្សែក្រាហ្វ f រួចរាល់សម្រាប់ការកែប្រែ។"
+  },
+  "a11y.predictRadioButtonGroup.predictCurveRadioButton.accessibleName": {
+    "value": "ទស្សន៍ទាយ"
+  },
+  "a11y.predictRadioButtonGroup.predictCurveRadioButton.accessibleContextResponse": {
+    "value": "ខ្សែក្រាហ្វទស្សន៍ទាយរួចរាល់សម្រាប់ការកែប្រែ។"
+  },
+  "a11y.curveManipulationTypeRadioButtonGroup.accessibleName": {
+    "value": "ប្រភេទនៃការកែប្រែខ្សែក្រាហ្វ"
+  },
+  "a11y.curveManipulationTypeRadioButtonGroup.accessibleHelpText": {
+    "value": "ជ្រើសរើសប្រភេទនៃការកែប្រែខ្សែក្រាហ្វសម្រាប់ឧបករណ៍កែប្រែខ្សែក្រាហ្វ បន្ទាប់មកផ្លាស់ប្តូរខ្សែក្រាហ្វក្នុងផ្ទៃក្រាហ្វចម្បង។\nស្វែងរកឧបករណ៍កែប្រែខ្សែក្រាហ្វក្រោមឧបករណ៍កែប្រែខ្សែក្រាហ្វ និងការកំណត់។"
+  },
+  "a11y.graphSetRadioButtonGroup.accessibleName": {
+    "value": "សំណុំក្រាហ្វដែលអាចមើលបាន"
+  },
+  "a11y.graphSetRadioButtonGroup.accessibleHelpText": {
+    "value": "ជ្រើសរើសសំណុំនៃផ្ទៃក្រាហ្វដែលត្រូវស៊ើបអង្កេត និងស្វែងរកទំនាក់ទំនង។"
+  },
+  "a11y.graphSetRadioButtonGroup.integralPrimaryRadioButton.accessibleName": {
+    "value": "ផ្ទៃក្រាហ្វអាំងតេក្រាល និងចម្បង"
+  },
+  "a11y.graphSetRadioButtonGroup.integralPrimaryRadioButton.accessibleContextResponse": {
+    "value": "ផ្ទៃក្រាហ្វចម្បងនៅខាងក្រោមអាំងតេក្រាល។"
+  },
+  "a11y.graphSetRadioButtonGroup.primaryDerivativeRadioButton.accessibleName": {
+    "value": "ផ្ទៃក្រាហ្វចម្បង និងដេរីវេ"
+  },
+  "a11y.graphSetRadioButtonGroup.primaryDerivativeRadioButton.accessibleContextResponse": {
+    "value": "ផ្ទៃក្រាហ្វចម្បងនៅខាងលើដេរីវេ។"
+  },
+  "a11y.graphSetRadioButtonGroup.integralPrimaryDerivativeRadioButton.accessibleName": {
+    "value": "ផ្ទៃក្រាហ្វអាំងតេក្រាល ចម្បង និងដេរីវេ"
+  },
+  "a11y.graphSetRadioButtonGroup.integralPrimaryDerivativeRadioButton.accessibleContextResponse": {
+    "value": "ផ្ទៃក្រាហ្វចម្បងនៅចន្លោះអាំងតេក្រាល និងដេរីវេ"
+  },
+  "a11y.graphSetRadioButtonGroup.primaryDerivativeSecondDerivativeRadioButton.accessibleName": {
+    "value": "ផ្ទៃក្រាហ្វចម្បង ដេរីវេ និងដេរីវេទីពីរ"
+  },
+  "a11y.graphSetRadioButtonGroup.primaryDerivativeSecondDerivativeRadioButton.accessibleContextResponse": {
+    "value": "ផ្ទៃក្រាហ្វចម្បងនៅខាងលើដេរីវេ និងដេរីវេទីពីរ"
+  },
+  "a11y.variableRadioButtonGroup.accessibleHelpText": {
+    "value": "ជ្រើសរើសអថេរសម្រាប់អ័ក្សដេក។"
+  },
+  "a11y.variableRadioButtonGroup.xRadioButton.accessibleContextResponse": {
+    "value": "អ័ក្សដេកត្រូវបានដាក់ស្លាកដោយ x។"
+  },
+  "a11y.variableRadioButtonGroup.tRadioButton.accessibleContextResponse": {
+    "value": "អ័ក្សដេកត្រូវបានដាក់ស្លាកដោយ t។"
+  },
+  "a11y.notationRadioButtonGroup.accessibleHelpText": {
+    "value": "ជ្រើសរើសនិមិត្តសញ្ញាដេរីវេ។"
+  },
+  "a11y.notationRadioButtonGroup.lagrangeRadioButton.accessibleName": {
+    "value": "Lagrange, f ព្រីមនៃ {$variable}"
+  },
+  "a11y.notationRadioButtonGroup.lagrangeRadioButton.accessibleContextResponse": {
+    "value": "និមិត្តសញ្ញាដេរីវេប្រើ f ព្រីម និង f ពីរបន្ទាត់ (f ព្រីមពីរ)។"
+  },
+  "a11y.notationRadioButtonGroup.leibnizRadioButton.accessibleName": {
+    "value": "Leibniz, d f លើ d {$variable}"
+  },
+  "a11y.notationRadioButtonGroup.leibnizRadioButton.accessibleContextResponse": {
+    "value": "និមិត្តសញ្ញាដេរីវេបង្ហាញផលធៀបនៃការផ្លាស់ប្តូរ y ធៀបនឹង {$variable}។"
+  },
+  "a11y.discontinuitiesRadioButtonGroup.accessibleHelpText": {
+    "value": "ជ្រើសរើសរបៀបបង្ហាញភាពមិនជាប់នៅក្នុងខ្សែក្រាហ្វ។"
+  },
+  "a11y.discontinuitiesRadioButtonGroup.noLineRadioButton.accessibleName": {
+    "value": "គ្មានបន្ទាត់តភ្ជាប់ភាពមិនជាប់"
+  },
+  "a11y.discontinuitiesRadioButtonGroup.dashedLineRadioButton.accessibleName": {
+    "value": "បន្ទាត់ដាច់ៗតភ្ជាប់ភាពមិនជាប់"
+  },
+  "a11y.shapeWidthSlider.accessibleName": {
+    "value": "ទទឹងរូបរាង"
+  },
+  "a11y.shapeWidthSlider.accessibleHelpText": {
+    "value": "កែសម្រួលទទឹងនៃរូបរាងកែប្រែខ្សែក្រាហ្វ។ ទទឹងមានចន្លោះពី {$min} ដល់ {$max} ឯកតាអ័ក្ស {$variable}។"
+  },
+  "a11y.predictToggleSwitch.accessibleHelpText": {
+    "value": "បន្ថែមទម្រង់ដែលអនុញ្ញាតឱ្យអ្នកទស្សន៍ទាយ f នៃ {$variable}។"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleNameOn.integral": {
+    "value": "លាក់ខ្សែក្រាហ្វអាំងតេក្រាល"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleNameOn.primary": {
+    "value": "លាក់ខ្សែក្រាហ្វចម្បង"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleNameOn.derivative": {
+    "value": "លាក់ខ្សែក្រាហ្វដេរីវេ"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleNameOn.secondDerivative": {
+    "value": "លាក់ខ្សែក្រាហ្វដេរីវេទីពីរ"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleNameOff.integral": {
+    "value": "បង្ហាញខ្សែក្រាហ្វអាំងតេក្រាល"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleNameOff.primary": {
+    "value": "បង្ហាញខ្សែក្រាហ្វចម្បង"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleNameOff.derivative": {
+    "value": "បង្ហាញខ្សែក្រាហ្វដេរីវេ"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleNameOff.secondDerivative": {
+    "value": "បង្ហាញខ្សែក្រាហ្វដេរីវេទីពីរ"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleHelpText": {
+    "value": "បង្ហាញ ឬលាក់ខ្សែក្រាហ្វដើម្បីគាំទ្រការទស្សន៍ទាយ។"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleContextResponseOff": {
+    "value": "បានលាក់ខ្សែក្រាហ្វ។"
+  },
+  "a11y.curveVisibilityToggleButton.accessibleContextResponseOn": {
+    "value": "បានបង្ហាញខ្សែក្រាហ្វ។"
+  },
+  "a11y.curveManipulators.defaults.accessibleObjectResponse.focusedReleased": {
+    "value": "ត្រង់ {$x}, {$y}, ក្រៅខ្សែក្រាហ្វ"
+  },
+  "a11y.curveManipulators.defaults.accessibleObjectResponse.focusedGrabbed": {
+    "value": "ត្រង់ {$x}, {$y}, បានចាប់យក"
+  },
+  "a11y.curveManipulators.defaults.accessibleObjectResponse.grabbed": {
+    "value": "បានចាប់យកត្រង់ {$x}, {$y}, ខ្សែក្រាហ្វត្រូវបានកែប្រែ"
+  },
+  "a11y.curveManipulators.defaults.accessibleObjectResponse.released": {
+    "value": "បានលែងត្រង់ {$x}, {$y}, ក្រៅខ្សែក្រាហ្វ"
+  },
+  "a11y.curveManipulators.defaults.accessibleObjectResponse.movedReleased": {
+    "value": "{$x}, {$y}"
+  },
+  "a11y.curveManipulators.defaults.accessibleObjectResponse.movedGrabbed": {
+    "value": "{$x}, {$y}, ខ្សែក្រាហ្វត្រូវបានកែប្រែ"
+  },
+  "a11y.curveManipulators.defaults.accessibleRoleDescription.movable": {
+    "value": "អាចរំកិលបាន"
+  },
+  "a11y.curveManipulators.defaults.accessibleRoleDescription.movableButton": {
+    "value": "ប៊ូតុងដែលអាចរំកិលបាន"
+  },
+  "a11y.curveManipulators.primary.accessibleName": {
+    "value": "ឧបករណ៍កែប្រែខ្សែក្រាហ្វ f"
+  },
+  "a11y.curveManipulators.primary.accessibleHelpText": {
+    "value": "រំកិលឧបករណ៍កែប្រែខ្សែក្រាហ្វក្នុងទិសដៅណាមួយដើម្បីកំណត់ទីតាំង រួចចុច Space ដើម្បីចាប់យក និងកែប្រែខ្សែក្រាហ្វ\nដោយប្រើប្រភេទនៃការកែប្រែខ្សែក្រាហ្វដែលបានជ្រើសរើស។"
+  },
+  "a11y.curveManipulators.predict.accessibleName": {
+    "value": "ឧបករណ៍កែប្រែខ្សែក្រាហ្វទស្សន៍ទាយ"
+  },
+  "a11y.curveManipulators.predict.accessibleHelpText": {
+    "value": "រំកិលឧបករណ៍កែប្រែខ្សែក្រាហ្វទស្សន៍ទាយក្នុងទិសដៅណាមួយដើម្បីកំណត់ទីតាំង រួចចុច Space ដើម្បីចាប់យក និង\nកែប្រែខ្សែក្រាហ្វដោយប្រើប្រភេទនៃការកែប្រែខ្សែក្រាហ្វដែលបានជ្រើសរើស។"
+  },
+  "a11y.explorationTools.accessibleRoleDescription": {
+    "value": "របាររំកិលតាមបំណង"
+  },
+  "a11y.explorationTools.accessibleHeading": {
+    "value": "ឧបករណ៍រុករក"
+  },
+  "a11y.explorationTools.accessibleObjectResponse.xPhrase.min": {
+    "value": "ត្រង់ {$variable} អប្បបរមា, {$variable} ស្មើ {$value}"
+  },
+  "a11y.explorationTools.accessibleObjectResponse.xPhrase.max": {
+    "value": "ត្រង់ {$variable} អតិបរមា, {$variable} ស្មើ {$value}"
+  },
+  "a11y.explorationTools.accessibleObjectResponse.xPhrase.other": {
+    "value": "ត្រង់ {$variable} ស្មើ {$value}"
+  },
+  "a11y.referenceLine.accessibleName": {
+    "value": "បន្ទាត់យោង"
+  },
+  "a11y.referenceLine.accessibleHelpText": {
+    "value": "រំកិលបន្ទាត់បញ្ឈរតាមទិសដេកដើម្បីផ្លាស់ប្តូរតម្លៃ {$variable} និងរុករកតម្លៃ y នៅលើក្រាហ្វទាំងអស់។\nបន្ទាត់បញ្ឈរកាត់តាមក្រាហ្វទាំងអស់ត្រង់តម្លៃ {$variable} ដូចគ្នា។"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.patterns.primaryDerivative": {
+    "value": "{$xPhrase}, {$primaryPhrase}, {$derivativePhrase}"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.patterns.integralPrimary": {
+    "value": "{$xPhrase}, {$integralPhrase}, {$primaryPhrase}"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.patterns.integralPrimaryDerivative": {
+    "value": "{$xPhrase}, {$integralPhrase}, {$primaryPhrase}, {$derivativePhrase}"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.patterns.primaryDerivativeSecondDerivative": {
+    "value": "{$xPhrase}, {$primaryPhrase}, {$derivativePhrase}, {$secondDerivativePhrase}"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.predictAndPrimary": {
+    "value": "{$predictPhrase}, {$primaryPhrase}"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.predictUndefined": {
+    "value": "ទស្សន៍ទាយ f នៃ {$variable} មិនបានកំណត់"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.predictValue": {
+    "value": "ទស្សន៍ទាយ f នៃ {$variable} គឺ {$value}"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.predictHidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វទស្សន៍ទាយ"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.primaryUndefined": {
+    "value": "f នៃ {$variable} មិនបានកំណត់"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.primaryValue": {
+    "value": "f នៃ {$variable} គឺ {$value}"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.primaryHidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វ f"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.integralPhrase.integralValue": {
+    "value": "អាំងតេក្រាលរហូតដល់ {$variable} គឺ {$value}"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.integralPhrase.integralHidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វអាំងតេក្រាល"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.derivativePhrase.derivativeUndefined": {
+    "value": "ដេរីវេត្រង់ {$variable} មិនបានកំណត់"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.derivativePhrase.derivativeValue": {
+    "value": "ដេរីវេត្រង់ {$variable} គឺ {$value}"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.derivativePhrase.derivativeHidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វដេរីវេ"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.secondDerivativePhrase.secondDerivativeUndefined": {
+    "value": "ដេរីវេទីពីរត្រង់ {$variable} មិនបានកំណត់"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.secondDerivativePhrase.secondDerivativeValue": {
+    "value": "ដេរីវេទីពីរត្រង់ {$variable} គឺ {$value}"
+  },
+  "a11y.referenceLine.accessibleObjectResponse.secondDerivativePhrase.secondDerivativeHidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វដេរីវេទីពីរ"
+  },
+  "a11y.tangentTool.accessibleName": {
+    "value": "ឧបករណ៍បន្ទាត់ប៉ះ"
+  },
+  "a11y.tangentTool.accessibleHelpText": {
+    "value": "រំកិលបន្ទាត់បញ្ឈរតាមទិសដេកដើម្បីផ្លាស់ប្តូរតម្លៃ {$variable} និងស្វែងយល់ពីទំនាក់ទំនងរវាង\nចំណោទនៃបន្ទាត់ប៉ះដែលអាចមើលឃើញទៅនឹង f ត្រង់ {$variable} និងតម្លៃ y នៅលើខ្សែក្រាហ្វដេរីវេត្រង់កូអរដោណេ\n{$variable} ដូចគ្នា។ ព័ត៌មានផ្ដល់ជូននូវតម្លៃ {$variable} បច្ចុប្បន្ន មេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះ\nទៅនឹង f ត្រង់ {$variable} និងតម្លៃដេរីវេត្រង់ {$variable} នៅលើខ្សែក្រាហ្វដេរីវេ។"
+  },
+  "a11y.tangentTool.accessibleObjectResponse.pattern": {
+    "value": "{$xPhrase}, {$slopePhrase}, {$derivativePhrase}"
+  },
+  "a11y.tangentTool.accessibleObjectResponse.slopePhrase.zero": {
+    "value": "មេគុណប្រាប់ទិសគឺសូន្យ"
+  },
+  "a11y.tangentTool.accessibleObjectResponse.slopePhrase.positive": {
+    "value": "មេគុណប្រាប់ទិសគឺវិជ្ជមាន {$absoluteSlope}"
+  },
+  "a11y.tangentTool.accessibleObjectResponse.slopePhrase.negative": {
+    "value": "មេគុណប្រាប់ទិសគឺអវិជ្ជមាន {$absoluteSlope}"
+  },
+  "a11y.tangentTool.accessibleObjectResponse.slopePhrase.hidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វ f"
+  },
+  "a11y.tangentTool.accessibleObjectResponse.derivativePhrase.derivativeValue": {
+    "value": "ដេរីវេត្រង់ {$variable} គឺ {$value}"
+  },
+  "a11y.tangentTool.accessibleObjectResponse.derivativePhrase.hidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វដេរីវេ"
+  },
+  "a11y.areaUnderCurveTool.accessibleName": {
+    "value": "ឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ"
+  },
+  "a11y.areaUnderCurveTool.accessibleHelpText": {
+    "value": "រំកិលបន្ទាត់បញ្ឈរតាមទិសដេកដើម្បីផ្លាស់ប្តូរតម្លៃ {$variable} និងស្វែងយល់ពីទំនាក់ទំនងរវាង\nផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោម f រហូតដល់តម្លៃ {$variable} បច្ចុប្បន្ន។ ផ្ទៃដែលមានស្រមោលត្រូវបានកំណត់ដោយ\nអ័ក្ស {$variable} និងខ្សែក្រាហ្វ f។ បន្ទាត់បញ្ឈរកាត់តាមក្រាហ្វទាំងអស់ត្រង់តម្លៃ {$variable} ដូចគ្នា។\nព័ត៌មានផ្ដល់ជូននូវតម្លៃ {$variable} បច្ចុប្បន្ន តម្លៃអាំងតេក្រាលរហូតដល់ {$variable} និង\nផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f។"
+  },
+  "a11y.areaUnderCurveTool.accessibleObjectResponse.pattern": {
+    "value": "{$xPhrase}, {$integralPhrase}, {$areaPhrase}"
+  },
+  "a11y.areaUnderCurveTool.accessibleObjectResponse.integralPhrase.integralValue": {
+    "value": "អាំងតេក្រាលរហូតដល់ {$variable} គឺ {$value}"
+  },
+  "a11y.areaUnderCurveTool.accessibleObjectResponse.integralPhrase.hidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វអាំងតេក្រាល"
+  },
+  "a11y.areaUnderCurveTool.accessibleObjectResponse.areaPhrase.zero": {
+    "value": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាគឺសូន្យនៅក្រោម f"
+  },
+  "a11y.areaUnderCurveTool.accessibleObjectResponse.areaPhrase.positive": {
+    "value": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាគឺវិជ្ជមាន {$absoluteArea} នៅក្រោម f"
+  },
+  "a11y.areaUnderCurveTool.accessibleObjectResponse.areaPhrase.negative": {
+    "value": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាគឺអវិជ្ជមាន {$absoluteArea} នៅក្រោម f"
+  },
+  "a11y.areaUnderCurveTool.accessibleObjectResponse.areaPhrase.hidden": {
+    "value": "បានលាក់ខ្សែក្រាហ្វ f"
+  }
+}

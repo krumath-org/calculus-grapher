@@ -1,0 +1,1956 @@
+{
+  "meta": {
+    "project": "calculus-grapher",
+    "fork": "https://github.com/krumath-org/calculus-grapher",
+    "source_en_file": "calculus-grapher/calculus-grapher-strings_en.json",
+    "locale_target": "km",
+    "generated": "2026-10-01",
+    "how_to_fill": [
+      "Fill empty \"khmer\" fields. Do not rename keys or change \"english\".",
+      "Keep placeholders {{variable}}, {$variable}, {$x}, {$y}, etc. and HTML tags (<br>, <b>) unchanged inside Khmer text.",
+      "PRIORITY 1 — sim_visible_ui: on-screen labels, screen names, preferences, keyboard help.",
+      "PRIORITY 2 — shared_joist_chrome / shared_scenery_phet_chrome: menu, Reset All, Preferences tabs (prefilled from quadrilateral where available — review/adjust).",
+      "OPTIONAL — sim_a11y_optional: screen-reader / interactive description phrases (PhET usually leaves these English).",
+      "This sim has 4 screens (not separate practice pages): Derivative, Integral, Advanced, Lab — all covered in screen.* and keyboard help.",
+      "Math symbols (d, f, x, t) and names Lagrange/Leibniz can stay English/Latin if preferred.",
+      "Send this file back when ready; we will apply into babel as *-strings_km.json (+ joist/scenery-phet as needed)."
+    ],
+    "counts": {
+      "sim_visible_ui": 32,
+      "sim_a11y_optional": 207,
+      "shared_joist_chrome": 60,
+      "shared_scenery_phet_chrome": 15,
+      "total": 314
+    }
+  },
+  "sim_visible_ui": {
+    "calculus-grapher.title": {
+      "english": "Calculus Grapher",
+      "khmer": "ក្រាហ្វគណិតវិភាគ",
+      "category": "title"
+    },
+    "screen.derivative": {
+      "english": "Derivative",
+      "khmer": "ដេរីវេ",
+      "category": "screen_name"
+    },
+    "screen.integral": {
+      "english": "Integral",
+      "khmer": "អាំងតេក្រាល",
+      "category": "screen_name"
+    },
+    "screen.advanced": {
+      "english": "Advanced",
+      "khmer": "កម្រិតខ្ពស់",
+      "category": "screen_name"
+    },
+    "screen.lab": {
+      "english": "Lab",
+      "khmer": "បន្ទប់ពិសោធន៍",
+      "category": "screen_name"
+    },
+    "smooth": {
+      "english": "Smooth",
+      "khmer": "រលូន",
+      "category": "control_panel"
+    },
+    "symbol.d": {
+      "english": "d",
+      "khmer": "d",
+      "category": "math_symbol",
+      "notes": "Usually keep Latin math symbols as-is (d, f, x, t)."
+    },
+    "symbol.f": {
+      "english": "f",
+      "khmer": "f",
+      "category": "math_symbol",
+      "notes": "Usually keep Latin math symbols as-is (d, f, x, t)."
+    },
+    "symbol.x": {
+      "english": "x",
+      "khmer": "x",
+      "category": "math_symbol",
+      "notes": "Usually keep Latin math symbols as-is (d, f, x, t)."
+    },
+    "symbol.t": {
+      "english": "t",
+      "khmer": "t",
+      "category": "math_symbol",
+      "notes": "Usually keep Latin math symbols as-is (d, f, x, t)."
+    },
+    "discontinuities": {
+      "english": "Discontinuities",
+      "khmer": "ភាពមិនជាប់",
+      "category": "preferences"
+    },
+    "values": {
+      "english": "Values",
+      "khmer": "តម្លៃ",
+      "category": "preferences"
+    },
+    "notation": {
+      "english": "Notation",
+      "khmer": "និមិត្តសញ្ញា",
+      "category": "preferences"
+    },
+    "lagrange": {
+      "english": "Lagrange:",
+      "khmer": "Lagrange:",
+      "category": "preferences"
+    },
+    "leibniz": {
+      "english": "Leibniz:",
+      "khmer": "Leibniz:",
+      "category": "preferences"
+    },
+    "variable": {
+      "english": "Variable",
+      "khmer": "អថេរ",
+      "category": "preferences"
+    },
+    "checkbox.areaUnderCurve": {
+      "english": "Area Under<br>Curve",
+      "khmer": "ផ្ទៃក្រឡាក្រោម<br>ខ្សែក្រាហ្វ",
+      "category": "control_panel",
+      "notes": "Keep placeholders {{…}/{$…} and HTML tags (<br>, <b>) unchanged; translate surrounding words only."
+    },
+    "checkbox.tangent": {
+      "english": "Tangent",
+      "khmer": "បន្ទាត់ប៉ះ",
+      "category": "control_panel"
+    },
+    "barometer.netSignedArea": {
+      "english": "Net Signed<br>Area",
+      "khmer": "ផ្ទៃក្រឡាសរុប<br>គិតសញ្ញា",
+      "category": "control_panel",
+      "notes": "Keep placeholders {{…}/{$…} and HTML tags (<br>, <b>) unchanged; translate surrounding words only."
+    },
+    "barometer.slopeOfTangent": {
+      "english": "Slope of<br>Tangent",
+      "khmer": "មេគុណប្រាប់ទិសនៃ<br>បន្ទាត់ប៉ះ",
+      "category": "control_panel",
+      "notes": "Keep placeholders {{…}/{$…} and HTML tags (<br>, <b>) unchanged; translate surrounding words only."
+    },
+    "predict": {
+      "english": "Predict",
+      "khmer": "ទស្សន៍ទាយ",
+      "category": "control_panel"
+    },
+    "show": {
+      "english": "Show",
+      "khmer": "បង្ហាញ",
+      "category": "control_panel"
+    },
+    "predictPreference": {
+      "english": "Predict",
+      "khmer": "ទស្សន៍ទាយ",
+      "category": "preferences"
+    },
+    "valuesPreferenceDescription": {
+      "english": "Shows values on graph axes, Reference Line, \"Slope of Tangent\", and \"Net Signed Area\".",
+      "khmer": "បង្ហាញតម្លៃនៅលើអ័ក្សក្រាហ្វ បន្ទាត់យោង \"មេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះ\" និង \"ផ្ទៃក្រឡាសរុបគិតសញ្ញា\"។",
+      "category": "preferences"
+    },
+    "predictPreferenceDescription": {
+      "english": "Adds a mode that allows you to predict f of {{variable}}.",
+      "khmer": "បន្ថែមទម្រង់ដែលអនុញ្ញាតឱ្យអ្នកទស្សន៍ទាយ f នៃ {{variable}}។",
+      "category": "preferences",
+      "notes": "Keep placeholders {{…}/{$…} and HTML tags (<br>, <b>) unchanged; translate surrounding words only."
+    },
+    "referenceLine": {
+      "english": "Reference<br>Line",
+      "khmer": "បន្ទាត់<br>យោង",
+      "category": "control_panel",
+      "notes": "Keep placeholders {{…}/{$…} and HTML tags (<br>, <b>) unchanged; translate surrounding words only."
+    },
+    "curveManipulatorKeyboardCue": {
+      "english": "to <b>Grab</b> or <b>Release</b> curve",
+      "khmer": "ដើម្បី<b>ចាប់យក</b> ឬ<b>លែង</b>ខ្សែក្រាហ្វ",
+      "category": "keyboard_help",
+      "notes": "Keep placeholders {{…}/{$…} and HTML tags (<br>, <b>) unchanged; translate surrounding words only."
+    },
+    "keyboardHelp.curveManipulator": {
+      "english": "Curve Manipulator",
+      "khmer": "ឧបករណ៍កែប្រែខ្សែក្រាហ្វ",
+      "category": "keyboard_help"
+    },
+    "keyboardHelp.grabOrReleaseCurve": {
+      "english": "Grab or release curve",
+      "khmer": "ចាប់យក ឬលែងខ្សែក្រាហ្វ",
+      "category": "keyboard_help"
+    },
+    "keyboardHelp.tangentToolOrReferenceLine": {
+      "english": "Tangent Tool or Reference Line",
+      "khmer": "ឧបករណ៍បន្ទាត់ប៉ះ ឬបន្ទាត់យោង",
+      "category": "keyboard_help"
+    },
+    "keyboardHelp.areaUnderCurveToolOrReferenceLine": {
+      "english": "Area Under Curve Tool or Reference Line",
+      "khmer": "ឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ ឬបន្ទាត់យោង",
+      "category": "keyboard_help"
+    },
+    "keyboardHelp.referenceLine": {
+      "english": "Reference Line",
+      "khmer": "បន្ទាត់យោង",
+      "category": "keyboard_help"
+    }
+  },
+  "sim_a11y_optional": {
+    "a11y.screens.defaults.screenSummary.currentDetails.leadingParagraph.widthPattern": {
+      "english": "Right now, Curve Manipulation Type is {$curveManipulationType}. Shape width is {$width}. {$curveSentence}",
+      "khmer": "ឥឡូវនេះ ប្រភេទនៃការកែប្រែខ្សែក្រាហ្វគឺ {$curveManipulationType}។ ទទឹងរូបរាងគឺ {$width}។ {$curveSentence}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.defaults.screenSummary.currentDetails.leadingParagraph.noWidthPattern": {
+      "english": "Right now, Curve Manipulation Type is {$curveManipulationType}. {$curveSentence}",
+      "khmer": "ឥឡូវនេះ ប្រភេទនៃការកែប្រែខ្សែក្រាហ្វគឺ {$curveManipulationType}។ {$curveSentence}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.defaults.screenSummary.currentDetails.leadingParagraph.curveSentence.curvesShown": {
+      "english": "Curves shown are:",
+      "khmer": "ខ្សែក្រាហ្វដែលបង្ហាញរួមមាន៖",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.defaults.screenSummary.currentDetails.leadingParagraph.curveSentence.allCurvesHidden": {
+      "english": "All curves hidden.",
+      "khmer": "ខ្សែក្រាហ្វទាំងអស់ត្រូវបានលាក់។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.defaults.screenSummary.currentDetails.accessibleList.primary": {
+      "english": "f, in Primary Graph Area",
+      "khmer": "f, ក្នុងផ្ទៃក្រាហ្វចម្បង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.defaults.screenSummary.currentDetails.accessibleList.predict": {
+      "english": "Predict f, in Primary Graph Area",
+      "khmer": "ទស្សន៍ទាយ f, ក្នុងផ្ទៃក្រាហ្វចម្បង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.defaults.screenSummary.currentDetails.accessibleList.integral": {
+      "english": "Integral, in Integral Graph Area",
+      "khmer": "អាំងតេក្រាល, ក្នុងផ្ទៃក្រាហ្វអាំងតេក្រាល",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.defaults.screenSummary.currentDetails.accessibleList.derivative": {
+      "english": "Derivative, in Derivative Graph Area",
+      "khmer": "ដេរីវេ, ក្នុងផ្ទៃក្រាហ្វដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.defaults.screenSummary.currentDetails.accessibleList.secondDerivative": {
+      "english": "Second Derivative, in Second Derivative Graph Area",
+      "khmer": "ដេរីវេទីពីរ, ក្នុងផ្ទៃក្រាហ្វដេរីវេទីពីរ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.defaults.screenSummary.controlArea": {
+      "english": "You can add Exploration Tools to the graph areas to promote making connections between values on each graph.\nReset the sim to start over.",
+      "khmer": "អ្នកអាចបន្ថែមឧបករណ៍រុករកទៅកាន់ផ្ទៃក្រាហ្វនានា ដើម្បីជួយផ្សារភ្ជាប់ទំនាក់ទំនងរវាងតម្លៃនៅលើក្រាហ្វនីមួយៗ។\nកំណត់ការពិសោធន៍ឡើងវិញដើម្បីចាប់ផ្តើមសារជាថ្មី។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.derivative.screenButtonsHelpText": {
+      "english": "Manipulate a graph and explore its derivative curve in real time.",
+      "khmer": "កែប្រែក្រាហ្វ និងរុករកខ្សែក្រាហ្វដេរីវេរបស់វាជាក់ស្ដែងភ្លាមៗ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.derivative.screenSummary.playArea": {
+      "english": "There is an interactive curve in the Primary Graph Area representing the graph of f and a \nderived non interactive curve representing the derivative of f. You can choose a Curve Manipulation Type\nto modify the curve in different ways in the Primary Graph Area at any point. There are \nExploration Tools allowing flexible investigation of all curves with {$variable} coordinates aligned.",
+      "khmer": "មានខ្សែក្រាហ្វអន្តរកម្មមួយនៅក្នុងផ្ទៃក្រាហ្វចម្បងដែលតំណាងឱ្យក្រាហ្វនៃ f និងខ្សែក្រាហ្វមិនអន្តរកម្មដែលទាញចេញមកដែលតំណាងឱ្យដេរីវេនៃ f។ អ្នកអាចជ្រើសរើសប្រភេទនៃការកែប្រែខ្សែក្រាហ្វ ដើម្បីកែប្រែខ្សែក្រាហ្វតាមវិធីផ្សេងៗគ្នានៅក្នុងផ្ទៃក្រាហ្វចម្បងនៅគ្រប់ចំណុច។ មានឧបករណ៍រុករកដែលអនុញ្ញាតឱ្យមានការស៊ើបអង្កេតយ៉ាងបត់បែនលើគ្រប់ខ្សែក្រាហ្វទាំងអស់ដោយតម្រឹមជាមួយកូអរដោណេ {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.derivative.screenSummary.interactionHint": {
+      "english": "Get started by finding the Curve Manipulator. Grab manipulator to modify curve in any direction.\nUse Exploration Tools to investigate steepness of f curve at different points.",
+      "khmer": "ចាប់ផ្តើមដោយស្វែងរកឧបករណ៍កែប្រែខ្សែក្រាហ្វ។ ចាប់យកឧបករណ៍កែប្រែដើម្បីកែប្រែខ្សែក្រាហ្វក្នុងទិសដៅណាមួយ។\nប្រើឧបករណ៍រុករកដើម្បីពិនិត្យមើលចំណោទនៃខ្សែក្រាហ្វ f នៅចំណុចផ្សេងៗគ្នា។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.integral.screenButtonsHelpText": {
+      "english": "Manipulate a graph and explore its integral curve in real time.",
+      "khmer": "កែប្រែក្រាហ្វ និងរុករកខ្សែក្រាហ្វអាំងតេក្រាលរបស់វាជាក់ស្ដែងភ្លាមៗ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.integral.screenSummary.playArea": {
+      "english": "There is an interactive curve in the Primary Graph Area representing the graph of f and a\nderived non interactive curve representing the integral of f. You can choose a Curve Manipulation Type to\nmodify the curve in different ways in the Primary Graph Area at any point. There are Exploration\nTools allowing flexible investigation of all curves with {$variable} coordinates aligned.",
+      "khmer": "មានខ្សែក្រាហ្វអន្តរកម្មមួយនៅក្នុងផ្ទៃក្រាហ្វចម្បងដែលតំណាងឱ្យក្រាហ្វនៃ f និងខ្សែក្រាហ្វមិនអន្តរកម្មដែលទាញចេញមកដែលតំណាងឱ្យអាំងតេក្រាលនៃ f។ អ្នកអាចជ្រើសរើសប្រភេទនៃការកែប្រែខ្សែក្រាហ្វ ដើម្បីកែប្រែខ្សែក្រាហ្វតាមវិធីផ្សេងៗគ្នានៅក្នុងផ្ទៃក្រាហ្វចម្បងនៅគ្រប់ចំណុច។ មានឧបករណ៍រុករកដែលអនុញ្ញាតឱ្យមានការស៊ើបអង្កេតយ៉ាងបត់បែនលើគ្រប់ខ្សែក្រាហ្វទាំងអស់ដោយតម្រឹមជាមួយកូអរដោណេ {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.integral.screenSummary.interactionHint": {
+      "english": "Get started by finding the Curve Manipulator. Grab manipulator to modify curve in any direction.\nUse Exploration Tools to investigate net signed area under f curve bounded by horizontal axis \nand f of {$variable} starting from left.",
+      "khmer": "ចាប់ផ្តើមដោយស្វែងរកឧបករណ៍កែប្រែខ្សែក្រាហ្វ។ ចាប់យកឧបករណ៍កែប្រែដើម្បីកែប្រែខ្សែក្រាហ្វក្នុងទិសដៅណាមួយ។\nប្រើឧបករណ៍រុករកដើម្បីពិនិត្យមើលផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f កំណត់ដោយអ័ក្សដេក និង f នៃ {$variable} ចាប់ផ្តើមពីខាងឆ្វេង។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.advanced.screenButtonsHelpText": {
+      "english": "Manipulate a graph and explore its derivative and integral curves in real time,\nwith or without discontinuities.",
+      "khmer": "កែប្រែក្រាហ្វ និងរុករកខ្សែក្រាហ្វដេរីវេ និងអាំងតេក្រាលរបស់វាជាក់ស្ដែងភ្លាមៗ ដោយមាន ឬគ្មានភាពមិនជាប់។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.advanced.screenSummary.playArea": {
+      "english": "There is an interactive curve in the Primary Graph Area representing the graph of f and\nderived non interactive curves in other Graph Areas. You can choose a Curve Manipulation Type to\nmodify the curve in different ways in the Primary Graph Area at any point. You can change\nwhich set of two Graph Areas are viewable: Integral and Primary or Primary and Derivative.\nThere are Exploration Tools allowing flexible investigation of all viewable curves with\n{$variable} coordinates aligned.",
+      "khmer": "មានខ្សែក្រាហ្វអន្តរកម្មមួយនៅក្នុងផ្ទៃក្រាហ្វចម្បងដែលតំណាងឱ្យក្រាហ្វនៃ f និងខ្សែក្រាហ្វមិនអន្តរកម្មដែលទាញចេញមកនៅក្នុងផ្ទៃក្រាហ្វផ្សេងទៀត។ អ្នកអាចជ្រើសរើសប្រភេទនៃការកែប្រែខ្សែក្រាហ្វ ដើម្បីកែប្រែខ្សែក្រាហ្វតាមវិធីផ្សេងៗគ្នានៅក្នុងផ្ទៃក្រាហ្វចម្បងនៅគ្រប់ចំណុច។ អ្នកអាចផ្លាស់ប្តូរសំណុំផ្ទៃក្រាហ្វទាំងពីរដែលអាចមើលបាន៖ អាំងតេក្រាល និងចម្បង ឬចម្បង និងដេរីវេ។ មានឧបករណ៍រុករកដែលអនុញ្ញាតឱ្យមានការស៊ើបអង្កេតយ៉ាងបត់បែនលើគ្រប់ខ្សែក្រាហ្វដែលអាចមើលបានទាំងអស់ដោយតម្រឹមជាមួយកូអរដោណេ {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.advanced.screenSummary.interactionHint": {
+      "english": "Get started by finding the Curve Manipulator. Grab manipulator to modify curve in any direction.\nUse Exploration Tools to explore relationships between graphs in viewable graph set.",
+      "khmer": "ចាប់ផ្តើមដោយស្វែងរកឧបករណ៍កែប្រែខ្សែក្រាហ្វ។ ចាប់យកឧបករណ៍កែប្រែដើម្បីកែប្រែខ្សែក្រាហ្វក្នុងទិសដៅណាមួយ។\nប្រើឧបករណ៍រុករកដើម្បីស្វែងយល់ពីទំនាក់ទំនងរវាងក្រាហ្វក្នុងសំណុំក្រាហ្វដែលអាចមើលបាន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.lab.screenButtonsHelpText": {
+      "english": "Manipulate a graph and explore its integral, derivative, and second derivative curves in \nreal time, with or without discontinuities.",
+      "khmer": "កែប្រែក្រាហ្វ និងរុករកខ្សែក្រាហ្វអាំងតេក្រាល ដេរីវេ និងដេរីវេទីពីររបស់វាជាក់ស្ដែងភ្លាមៗ ដោយមាន ឬគ្មានភាពមិនជាប់។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.lab.screenSummary.playArea": {
+      "english": "There is an interactive curve in the Primary Graph Area representing the graph of f and\nderived non interactive curves in other Graphs Areas. You can choose a Curve Manipulation Type\nto modify the curve in different ways in the Primary Graph Area at any point. You can change \nwhich set of three Graph Areas are viewable: Integral, Primary, and Derivative, or Primary,\nDerivative, and Second Derivative. There are Exploration Tools allowing flexible investigation\nof all curves with {$variable} coordinates aligned.",
+      "khmer": "មានខ្សែក្រាហ្វអន្តរកម្មមួយនៅក្នុងផ្ទៃក្រាហ្វចម្បងដែលតំណាងឱ្យក្រាហ្វនៃ f និងខ្សែក្រាហ្វមិនអន្តរកម្មដែលទាញចេញមកនៅក្នុងផ្ទៃក្រាហ្វផ្សេងទៀត។ អ្នកអាចជ្រើសរើសប្រភេទនៃការកែប្រែខ្សែក្រាហ្វ ដើម្បីកែប្រែខ្សែក្រាហ្វតាមវិធីផ្សេងៗគ្នានៅក្នុងផ្ទៃក្រាហ្វចម្បងនៅគ្រប់ចំណុច។ អ្នកអាចផ្លាស់ប្តូរសំណុំផ្ទៃក្រាហ្វទាំងបីដែលអាចមើលបាន៖ អាំងតេក្រាល ចម្បង និងដេរីវេ ឬចម្បង ដេរីវេ និងដេរីវេទីពីរ។ មានឧបករណ៍រុករកដែលអនុញ្ញាតឱ្យមានការស៊ើបអង្កេតយ៉ាងបត់បែនលើគ្រប់ខ្សែក្រាហ្វទាំងអស់ដោយតម្រឹមជាមួយកូអរដោណេ {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.screens.lab.screenSummary.interactionHint": {
+      "english": "Get started by finding the Curve Manipulator. Grab manipulator to modify curve in any direction.\nUse Exploration Tools to explore relationships between graphs in viewable graph set.",
+      "khmer": "ចាប់ផ្តើមដោយស្វែងរកឧបករណ៍កែប្រែខ្សែក្រាហ្វ។ ចាប់យកឧបករណ៍កែប្រែដើម្បីកែប្រែខ្សែក្រាហ្វក្នុងទិសដៅណាមួយ។\nប្រើឧបករណ៍រុករកដើម្បីស្វែងយល់ពីទំនាក់ទំនងរវាងក្រាហ្វក្នុងសំណុំក្រាហ្វដែលអាចមើលបាន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.slopeOfTangentAccordionBox.accessibleHelpTextCollapsed": {
+      "english": "Explore slope of line tangent to f curve at {$variable} coordinate of Tangent tool.",
+      "khmer": "រុករកមេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះទៅនឹងខ្សែក្រាហ្វ f ត្រង់កូអរដោណេ {$variable} នៃឧបករណ៍បន្ទាត់ប៉ះ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.slopeOfTangentAccordionBox.accessibleParagraph.zero": {
+      "english": "At {$variable} equals {$x}, slope of line tangent to f is zero.",
+      "khmer": "ត្រង់ {$variable} ស្មើ {$x} មេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះទៅនឹង f គឺសូន្យ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.slopeOfTangentAccordionBox.accessibleParagraph.positive": {
+      "english": "At {$variable} equals {$x}, slope of line tangent to f is positive {$absoluteSlope}.",
+      "khmer": "ត្រង់ {$variable} ស្មើ {$x} មេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះទៅនឹង f គឺវិជ្ជមាន {$absoluteSlope}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.slopeOfTangentAccordionBox.accessibleParagraph.negative": {
+      "english": "At {$variable} equals {$x}, slope of line tangent to f is negative {$absoluteSlope}.",
+      "khmer": "ត្រង់ {$variable} ស្មើ {$x} មេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះទៅនឹង f គឺអវិជ្ជមាន {$absoluteSlope}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.netSignedAreaAccordionBox.accessibleHelpTextCollapsed": {
+      "english": "Explore net signed area under f curve between {$variable} equals 0 and current\n{$variable} coordinate of Area Under Curve tool.",
+      "khmer": "រុករកផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f នៅចន្លោះ {$variable} ស្មើ 0 និងកូអរដោណេ\n{$variable} បច្ចុប្បន្ននៃឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.netSignedAreaAccordionBox.accessibleParagraph.zero": {
+      "english": "Net signed area under f curve is zero between {$variable} equals 0 and {$x}.",
+      "khmer": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f គឺសូន្យនៅចន្លោះ {$variable} ស្មើ 0 និង {$x}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.netSignedAreaAccordionBox.accessibleParagraph.positive": {
+      "english": "Net signed area under f curve is positive {$absoluteArea} between {$variable} equals 0 and {$x}.",
+      "khmer": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f គឺវិជ្ជមាន {$absoluteArea} នៅចន្លោះ {$variable} ស្មើ 0 និង {$x}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.netSignedAreaAccordionBox.accessibleParagraph.negative": {
+      "english": "Net signed area under f curve is negative {$absoluteArea} between {$variable} equals 0 and {$x}.",
+      "khmer": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f គឺអវិជ្ជមាន {$absoluteArea} នៅចន្លោះ {$variable} ស្មើ 0 និង {$x}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.checkboxGroup.accessibleHeading": {
+      "english": "Exploration Tool Controls",
+      "khmer": "ការបញ្ជាឧបករណ៍រុករក",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentCheckbox.accessibleHelpText": {
+      "english": "Add or remove Tangent Tool to make connections between graphs.",
+      "khmer": "បន្ថែម ឬដកចេញនូវឧបករណ៍បន្ទាត់ប៉ះ ដើម្បីបង្កើតទំនាក់ទំនងរវាងក្រាហ្វនានា។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentCheckbox.accessibleContextResponseChecked": {
+      "english": "Tangent Tool added.",
+      "khmer": "បានបន្ថែមឧបករណ៍បន្ទាត់ប៉ះ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentCheckbox.accessibleContextResponseUnchecked": {
+      "english": "Tangent Tool removed.",
+      "khmer": "បានដកឧបករណ៍បន្ទាត់ប៉ះចេញ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLineCheckbox.accessibleName": {
+      "english": "Reference Line",
+      "khmer": "បន្ទាត់យោង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLineCheckbox.accessibleHelpText": {
+      "english": "Add or remove vertical Reference Line to align {$variable} coordinates on all graphs.",
+      "khmer": "បន្ថែម ឬដកចេញនូវបន្ទាត់យោងបញ្ឈរ ដើម្បីតម្រឹមកូអរដោណេ {$variable} នៅលើក្រាហ្វទាំងអស់។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLineCheckbox.accessibleContextResponseChecked": {
+      "english": "Reference Line added.",
+      "khmer": "បានបន្ថែមបន្ទាត់យោង។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLineCheckbox.accessibleContextResponseUnchecked": {
+      "english": "Reference Line removed.",
+      "khmer": "បានដកបន្ទាត់យោងចេញ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveCheckbox.accessibleName": {
+      "english": "Area Under Curve Tool",
+      "khmer": "ឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveCheckbox.accessibleHelpText": {
+      "english": "Add or remove Area Under Curve Tool and shading under curve bounded by horizontal axis and f.",
+      "khmer": "បន្ថែម ឬដកចេញនូវឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ និងការដាក់ស្រមោលក្រោមខ្សែក្រាហ្វដែលកំណត់ដោយអ័ក្សដេក និង f។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveCheckbox.accessibleContextResponseChecked": {
+      "english": "Area Under Curve Tool added.",
+      "khmer": "បានបន្ថែមឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveCheckbox.accessibleContextResponseUnchecked": {
+      "english": "Area Under Curve Tool removed.",
+      "khmer": "បានដកឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វចេញ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.gridCheckbox.accessibleName": {
+      "english": "Coordinate Grid",
+      "khmer": "បណ្ដាញក្រឡាកូអរដោណេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.gridCheckbox.accessibleHelpText": {
+      "english": "Show or hide coordinate grid on all graphs.",
+      "khmer": "បង្ហាញ ឬលាក់បណ្ដាញក្រឡាកូអរដោណេនៅលើក្រាហ្វទាំងអស់។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.gridCheckbox.accessibleContextResponseChecked": {
+      "english": "Coordinate grid shown.",
+      "khmer": "បានបង្ហាញបណ្ដាញក្រឡាកូអរដោណេ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.gridCheckbox.accessibleContextResponseUnchecked": {
+      "english": "Coordinate grid hidden.",
+      "khmer": "បានលាក់បណ្ដាញក្រឡាកូអរដោណេ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.showPrimaryCurveCheckbox.accessibleName": {
+      "english": "Show f of {$variable}",
+      "khmer": "បង្ហាញ f នៃ {$variable}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.showPrimaryCurveCheckbox.accessibleHelpText": {
+      "english": "Show or hide f of {$variable} to compare your predicted shape to shape of f of {$variable}.",
+      "khmer": "បង្ហាញ ឬលាក់ f នៃ {$variable} ដើម្បីប្រៀបធៀបរូបរាងដែលអ្នកបានទស្សន៍ទាយទៅនឹងរូបរាងនៃ f នៃ {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.showPrimaryCurveCheckbox.accessibleContextResponseChecked": {
+      "english": "f of {$variable} shown.",
+      "khmer": "បានបង្ហាញ f នៃ {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.showPrimaryCurveCheckbox.accessibleContextResponseUnchecked": {
+      "english": "f of {$variable} hidden.",
+      "khmer": "បានលាក់ f នៃ {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulationType.hill": {
+      "english": "Hill with Smooth Transitions to f of {$variable}",
+      "khmer": "ទួលភ្នំដែលមានការផ្លាស់ប្តូររលូនទៅ f នៃ {$variable}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulationType.triangle": {
+      "english": "Rigid V with Sharp Transitions to f of {$variable}",
+      "khmer": "រាងអក្សរ V រឹងដែលមានការផ្លាស់ប្តូរស្រួចទៅ f នៃ {$variable}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulationType.pedestal": {
+      "english": "Pedestal with Smooth Transitions to f of {$variable}",
+      "khmer": "ជើងទម្រដែលមានការផ្លាស់ប្តូររលូនទៅ f នៃ {$variable}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulationType.parabola": {
+      "english": "Parabola with Sharp Transitions to f of {$variable}",
+      "khmer": "ប៉ារ៉ាបូលដែលមានការផ្លាស់ប្តូរស្រួចទៅ f នៃ {$variable}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulationType.sinusoid": {
+      "english": "Sinusoid",
+      "khmer": "ស៊ីនុសូអ៊ីត",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulationType.freeform": {
+      "english": "Freeform, Discontinuities Likely",
+      "khmer": "ទម្រង់សេរី ងាយនឹងមានភាពមិនជាប់",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulationType.tilt": {
+      "english": "Diagonal Tilt Pinned at Left Edge",
+      "khmer": "ភាពផ្អៀងតាមអង្កត់ទ្រូងដែលខ្ទាស់នៅគែមខាងឆ្វេង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulationType.shift": {
+      "english": "Vertical Shift Up or Down",
+      "khmer": "ការរំកិលបញ្ឈរឡើងលើ ឬចុះក្រោម",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.defaults.accessibleList.leadingParagraph": {
+      "english": "Right now,",
+      "khmer": "ឥឡូវនេះ,",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.defaults.accessibleList.coordinateGridShown": {
+      "english": "Coordinate grid shown.",
+      "khmer": "បានបង្ហាញបណ្ដាញក្រឡាកូអរដោណេ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.defaults.accessibleList.valuesLabeledOnAxes": {
+      "english": "Values labeled on axes.",
+      "khmer": "តម្លៃត្រូវបានដាក់ស្លាកនៅលើអ័ក្ស។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleHeading": {
+      "english": "Primary Graph Area",
+      "khmer": "ផ្ទៃក្រាហ្វចម្បង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleList.primaryCurve.continuousAndDifferentiable": {
+      "english": "f is continuous and differentiable at all points.",
+      "khmer": "f គឺជាប់ និងមានដេរីវេនៅគ្រប់ចំណុច។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleList.primaryCurve.hasDiscontinuities": {
+      "english": "f is not differentiable at one or more discontinuities.",
+      "khmer": "f គ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleList.primaryCurve.hasCusps": {
+      "english": "f is continuous but not differentiable at one or more cusps.",
+      "khmer": "f គឺជាប់ ប៉ុន្តែគ្មានដេរីវេត្រង់ចំណុចស្រួចមួយ ឬច្រើន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleList.primaryCurve.hasDiscontinuitiesAndCusps": {
+      "english": "f is not differentiable at one or more discontinuities and one or more cusps.",
+      "khmer": "f គ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន និងចំណុចស្រួចមួយ ឬច្រើន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleList.primaryCurve.hidden": {
+      "english": "f curve hidden.",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វ f។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleList.predictCurve.continuousAndDifferentiable": {
+      "english": "Predict f is continuous and differentiable at all points.",
+      "khmer": "ទស្សន៍ទាយ f គឺជាប់ និងមានដេរីវេនៅគ្រប់ចំណុច។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleList.predictCurve.hasDiscontinuities": {
+      "english": "Predict f is not differentiable at one or more discontinuities.",
+      "khmer": "ទស្សន៍ទាយ f គ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleList.predictCurve.hasCusps": {
+      "english": "Predict f is continuous but not differentiable at one or more cusps.",
+      "khmer": "ទស្សន៍ទាយ f គឺជាប់ ប៉ុន្តែគ្មានដេរីវេត្រង់ចំណុចស្រួចមួយ ឬច្រើន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleList.predictCurve.hasDiscontinuitiesAndCusps": {
+      "english": "Predict f is not differentiable at one or more discontinuities and one or more cusps.",
+      "khmer": "ទស្សន៍ទាយ f គ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន និងចំណុចស្រួចមួយ ឬច្រើន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.primary.accessibleList.predictCurve.hidden": {
+      "english": "Predict f curve hidden.",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វទស្សន៍ទាយ f។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.integral.accessibleHeading": {
+      "english": "Integral Graph Area",
+      "khmer": "ផ្ទៃក្រាហ្វអាំងតេក្រាល",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.integral.accessibleList.continuous": {
+      "english": "Integral curve is continuous and represents definite integral from zero to {$variable} for f of {$variable}.",
+      "khmer": "ខ្សែក្រាហ្វអាំងតេក្រាលគឺជាប់ ហើយតំណាងឱ្យអាំងតេក្រាលកំណត់ពីសូន្យដល់ {$variable} សម្រាប់ f នៃ {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.integral.accessibleList.hidden": {
+      "english": "Integral curve hidden.",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វអាំងតេក្រាល។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.derivative.accessibleHeading": {
+      "english": "Derivative Graph Area",
+      "khmer": "ផ្ទៃក្រាហ្វដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.derivative.accessibleList.continuous": {
+      "english": "Derivative curve is continuous and differentiable at all points.",
+      "khmer": "ខ្សែក្រាហ្វដេរីវេគឺជាប់ និងមានដេរីវេនៅគ្រប់ចំណុច។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.derivative.accessibleList.discontinuous": {
+      "english": "Derivative curve is not differentiable at one or more discontinuities.",
+      "khmer": "ខ្សែក្រាហ្វដេរីវេគ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.derivative.accessibleList.hidden": {
+      "english": "Derivative curve hidden.",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វដេរីវេ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.secondDerivative.accessibleHeading": {
+      "english": "Second Derivative Graph Area",
+      "khmer": "ផ្ទៃក្រាហ្វដេរីវេទីពីរ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.secondDerivative.accessibleList.continuous": {
+      "english": "Second derivative curve is continuous and differentiable at all points.",
+      "khmer": "ខ្សែក្រាហ្វដេរីវេទីពីរគឺជាប់ និងមានដេរីវេនៅគ្រប់ចំណុច។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.secondDerivative.accessibleList.discontinuous": {
+      "english": "Second derivative curve is not differentiable at one or more discontinuities.",
+      "khmer": "ខ្សែក្រាហ្វដេរីវេទីពីរគ្មានដេរីវេត្រង់ចំណុចមិនជាប់មួយ ឬច្រើន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphAreas.secondDerivative.accessibleList.hidden": {
+      "english": "Second derivative curve hidden.",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វដេរីវេទីពីរ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulatorAndSettings": {
+      "english": "Curve Manipulator and Settings",
+      "khmer": "ឧបករណ៍កែប្រែខ្សែក្រាហ្វ និងការកំណត់",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveActionsButtonGroup.accessibleHeading": {
+      "english": "Curve Actions",
+      "khmer": "សកម្មភាពលើខ្សែក្រាហ្វ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveActionsButtonGroup.accessibleHelpText": {
+      "english": "Choose action to take on curve in Primary Graph Area.",
+      "khmer": "ជ្រើសរើសសកម្មភាពដែលត្រូវអនុវត្តលើខ្សែក្រាហ្វក្នុងផ្ទៃក្រាហ្វចម្បង។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.smoothButton.accessibleName": {
+      "english": "Smooth",
+      "khmer": "រលូន",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.smoothButton.accessibleHelpText": {
+      "english": "Smooth sharp corners and discontinuities on curve in Primary Graph Area.",
+      "khmer": "ធ្វើឱ្យគែមស្រួច និងភាពមិនជាប់នៃខ្សែក្រាហ្វក្នុងផ្ទៃក្រាហ្វចម្បងមានសភាពរលូន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.smoothButton.accessibleContextResponse.allCurves": {
+      "english": "f and derived curves smoothed.",
+      "khmer": "បានធ្វើឱ្យ f និងខ្សែក្រាហ្វទាញចេញទាំងអស់មានសភាពរលូន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.smoothButton.accessibleContextResponse.predictCurve": {
+      "english": "Predict curve only smoothed.",
+      "khmer": "បានធ្វើឱ្យខ្សែក្រាហ្វទស្សន៍ទាយតែប៉ុណ្ណោះមានសភាពរលូន។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.eraserButton.accessibleName": {
+      "english": "Erase Curve Manipulations",
+      "khmer": "លុបការកែប្រែខ្សែក្រាហ្វ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.eraserButton.accessibleHelpText": {
+      "english": "Reset curve to y equals zero, maintain curve manipulation settings.",
+      "khmer": "កំណត់ខ្សែក្រាហ្វឡើងវិញទៅ y ស្មើ 0 ដោយរក្សាការកំណត់ការកែប្រែខ្សែក្រាហ្វដដែល។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.eraserButton.accessibleContextResponse.primaryCurve": {
+      "english": "f and derived curves reset, settings unchanged.",
+      "khmer": "បានកំណត់ f និងខ្សែក្រាហ្វទាញចេញឡើងវិញ ដោយការកំណត់មិនផ្លាស់ប្តូរ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.eraserButton.accessibleContextResponse.predictCurve": {
+      "english": "Predict curve reset, other curves and settings unchanged.",
+      "khmer": "បានកំណត់ខ្សែក្រាហ្វទស្សន៍ទាយឡើងវិញ ដោយខ្សែក្រាហ្វផ្សេងទៀត និងការកំណត់មិនផ្លាស់ប្តូរ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.undoButton.accessibleName": {
+      "english": "Undo",
+      "khmer": "មិនធ្វើវិញ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.undoButton.accessibleHelpText": {
+      "english": "Undo most recent curve manipulation.",
+      "khmer": "មិនធ្វើវិញនូវការកែប្រែខ្សែក្រាហ្វថ្មីៗបំផុត។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.undoButton.accessibleContextResponse.primaryCurve": {
+      "english": "Last manipulation removed from f and derived curves.",
+      "khmer": "ការកែប្រែចុងក្រោយត្រូវបានដកចេញពី f និងខ្សែក្រាហ្វទាញចេញ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.undoButton.accessibleContextResponse.predictCurve": {
+      "english": "Last manipulation removed from predict curve only.",
+      "khmer": "ការកែប្រែចុងក្រោយត្រូវបានដកចេញពីខ្សែក្រាហ្វទស្សន៍ទាយតែប៉ុណ្ណោះ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.yZoomButtonGroup.zoomInButton.accessibleName.integral": {
+      "english": "Zoom In Integral y Axis",
+      "khmer": "ពង្រីកអ័ក្ស y នៃអាំងតេក្រាល",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.yZoomButtonGroup.zoomInButton.accessibleName.derivative": {
+      "english": "Zoom In Derivative y Axis",
+      "khmer": "ពង្រីកអ័ក្ស y នៃដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.yZoomButtonGroup.zoomInButton.accessibleName.secondDerivative": {
+      "english": "Zoom In Second Derivative y Axis",
+      "khmer": "ពង្រីកអ័ក្ស y នៃដេរីវេទីពីរ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.yZoomButtonGroup.zoomInButton.accessibleHelpText": {
+      "english": "Zoom in y axis only.",
+      "khmer": "ពង្រីកតែលើអ័ក្ស y ប៉ុណ្ណោះ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.yZoomButtonGroup.zoomInButton.accessibleContextResponse": {
+      "english": "zoomed in, y range {$min} to {$max}",
+      "khmer": "បានពង្រីក, ដែនកំណត់ y ពី {$min} ដល់ {$max}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.yZoomButtonGroup.zoomOutButton.accessibleName.integral": {
+      "english": "Zoom Out Integral y Axis",
+      "khmer": "បង្រួមអ័ក្ស y នៃអាំងតេក្រាល",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.yZoomButtonGroup.zoomOutButton.accessibleName.derivative": {
+      "english": "Zoom Out Derivative y Axis",
+      "khmer": "បង្រួមអ័ក្ស y នៃដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.yZoomButtonGroup.zoomOutButton.accessibleName.secondDerivative": {
+      "english": "Zoom Out Second Derivative y Axis",
+      "khmer": "បង្រួមអ័ក្ស y នៃដេរីវេទីពីរ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.yZoomButtonGroup.zoomOutButton.accessibleHelpText": {
+      "english": "Zoom out y axis only.",
+      "khmer": "បង្រួមតែលើអ័ក្ស y ប៉ុណ្ណោះ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.yZoomButtonGroup.zoomOutButton.accessibleContextResponse": {
+      "english": "zoomed out, y range {$min} to {$max}",
+      "khmer": "បានបង្រួម, ដែនកំណត់ y ពី {$min} ដល់ {$max}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.predictRadioButtonGroup.accessibleName": {
+      "english": "Curve to Manipulate",
+      "khmer": "ខ្សែក្រាហ្វដែលត្រូវកែប្រែ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.predictRadioButtonGroup.accessibleHelpText": {
+      "english": "Choose which curve is manipulable in Primary Graph Area.",
+      "khmer": "ជ្រើសរើសខ្សែក្រាហ្វដែលអាចកែប្រែបាននៅក្នុងផ្ទៃក្រាហ្វចម្បង។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.predictRadioButtonGroup.primaryCurveRadioButton.accessibleName": {
+      "english": "f of {$variable}",
+      "khmer": "f នៃ {$variable}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.predictRadioButtonGroup.primaryCurveRadioButton.accessibleContextResponse": {
+      "english": "f curve ready to manipulate.",
+      "khmer": "ខ្សែក្រាហ្វ f រួចរាល់សម្រាប់ការកែប្រែ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.predictRadioButtonGroup.predictCurveRadioButton.accessibleName": {
+      "english": "Predict",
+      "khmer": "ទស្សន៍ទាយ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.predictRadioButtonGroup.predictCurveRadioButton.accessibleContextResponse": {
+      "english": "Predict curve ready to manipulate.",
+      "khmer": "ខ្សែក្រាហ្វទស្សន៍ទាយរួចរាល់សម្រាប់ការកែប្រែ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulationTypeRadioButtonGroup.accessibleName": {
+      "english": "Curve Manipulation Type",
+      "khmer": "ប្រភេទនៃការកែប្រែខ្សែក្រាហ្វ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulationTypeRadioButtonGroup.accessibleHelpText": {
+      "english": "Choose curve modification type for Curve Manipulator, then change curve in Primary Graph Area.\nFind Curve Manipulator under Curve Manipulator and Settings.",
+      "khmer": "ជ្រើសរើសប្រភេទនៃការកែប្រែខ្សែក្រាហ្វសម្រាប់ឧបករណ៍កែប្រែខ្សែក្រាហ្វ បន្ទាប់មកផ្លាស់ប្តូរខ្សែក្រាហ្វក្នុងផ្ទៃក្រាហ្វចម្បង។\nស្វែងរកឧបករណ៍កែប្រែខ្សែក្រាហ្វក្រោមឧបករណ៍កែប្រែខ្សែក្រាហ្វ និងការកំណត់។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphSetRadioButtonGroup.accessibleName": {
+      "english": "Viewable Graph Set",
+      "khmer": "សំណុំក្រាហ្វដែលអាចមើលបាន",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphSetRadioButtonGroup.accessibleHelpText": {
+      "english": "Choose which set of Graph Areas to investigate and find relationships.",
+      "khmer": "ជ្រើសរើសសំណុំនៃផ្ទៃក្រាហ្វដែលត្រូវស៊ើបអង្កេត និងស្វែងរកទំនាក់ទំនង។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphSetRadioButtonGroup.integralPrimaryRadioButton.accessibleName": {
+      "english": "Integral and Primary Graph Areas",
+      "khmer": "ផ្ទៃក្រាហ្វអាំងតេក្រាល និងចម្បង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphSetRadioButtonGroup.integralPrimaryRadioButton.accessibleContextResponse": {
+      "english": "Primary Graph Area below Integral.",
+      "khmer": "ផ្ទៃក្រាហ្វចម្បងនៅខាងក្រោមអាំងតេក្រាល។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphSetRadioButtonGroup.primaryDerivativeRadioButton.accessibleName": {
+      "english": "Primary and Derivative Graph Areas",
+      "khmer": "ផ្ទៃក្រាហ្វចម្បង និងដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphSetRadioButtonGroup.primaryDerivativeRadioButton.accessibleContextResponse": {
+      "english": "Primary Graph Area above Derivative.",
+      "khmer": "ផ្ទៃក្រាហ្វចម្បងនៅខាងលើដេរីវេ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphSetRadioButtonGroup.integralPrimaryDerivativeRadioButton.accessibleName": {
+      "english": "Integral, Primary, and Derivative Graph Areas",
+      "khmer": "ផ្ទៃក្រាហ្វអាំងតេក្រាល ចម្បង និងដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphSetRadioButtonGroup.integralPrimaryDerivativeRadioButton.accessibleContextResponse": {
+      "english": "Primary Graph Area between Integral and Derivative",
+      "khmer": "ផ្ទៃក្រាហ្វចម្បងនៅចន្លោះអាំងតេក្រាល និងដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphSetRadioButtonGroup.primaryDerivativeSecondDerivativeRadioButton.accessibleName": {
+      "english": "Primary, Derivative, and Second Derivative Graph Areas",
+      "khmer": "ផ្ទៃក្រាហ្វចម្បង ដេរីវេ និងដេរីវេទីពីរ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.graphSetRadioButtonGroup.primaryDerivativeSecondDerivativeRadioButton.accessibleContextResponse": {
+      "english": "Primary Graph Area above Derivative and Second Derivative",
+      "khmer": "ផ្ទៃក្រាហ្វចម្បងនៅខាងលើដេរីវេ និងដេរីវេទីពីរ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.variableRadioButtonGroup.accessibleHelpText": {
+      "english": "Choose variable for horizontal axis.",
+      "khmer": "ជ្រើសរើសអថេរសម្រាប់អ័ក្សដេក។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.variableRadioButtonGroup.xRadioButton.accessibleContextResponse": {
+      "english": "Horizontal axis labeled with x.",
+      "khmer": "អ័ក្សដេកត្រូវបានដាក់ស្លាកដោយ x។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.variableRadioButtonGroup.tRadioButton.accessibleContextResponse": {
+      "english": "Horizontal axis labeled with t.",
+      "khmer": "អ័ក្សដេកត្រូវបានដាក់ស្លាកដោយ t។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.notationRadioButtonGroup.accessibleHelpText": {
+      "english": "Choose derivative notation.",
+      "khmer": "ជ្រើសរើសនិមិត្តសញ្ញាដេរីវេ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.notationRadioButtonGroup.lagrangeRadioButton.accessibleName": {
+      "english": "Lagrange, f prime of {$variable}",
+      "khmer": "Lagrange, f ព្រីមនៃ {$variable}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.notationRadioButtonGroup.lagrangeRadioButton.accessibleContextResponse": {
+      "english": "Derivative notation uses f prime and f double prime.",
+      "khmer": "និមិត្តសញ្ញាដេរីវេប្រើ f ព្រីម និង f ពីរបន្ទាត់ (f ព្រីមពីរ)។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.notationRadioButtonGroup.leibnizRadioButton.accessibleName": {
+      "english": "Leibniz, d f over d {$variable}",
+      "khmer": "Leibniz, d f លើ d {$variable}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.notationRadioButtonGroup.leibnizRadioButton.accessibleContextResponse": {
+      "english": "Derivative notation shows ratio of change in y with respect to {$variable}.",
+      "khmer": "និមិត្តសញ្ញាដេរីវេបង្ហាញផលធៀបនៃការផ្លាស់ប្តូរ y ធៀបនឹង {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.discontinuitiesRadioButtonGroup.accessibleHelpText": {
+      "english": "Choose how to display discontinuities in curves.",
+      "khmer": "ជ្រើសរើសរបៀបបង្ហាញភាពមិនជាប់នៅក្នុងខ្សែក្រាហ្វ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.discontinuitiesRadioButtonGroup.noLineRadioButton.accessibleName": {
+      "english": "No Line Connecting Discontinuities",
+      "khmer": "គ្មានបន្ទាត់តភ្ជាប់ភាពមិនជាប់",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.discontinuitiesRadioButtonGroup.dashedLineRadioButton.accessibleName": {
+      "english": "Dashed Line Connecting Discontinuities",
+      "khmer": "បន្ទាត់ដាច់ៗតភ្ជាប់ភាពមិនជាប់",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.shapeWidthSlider.accessibleName": {
+      "english": "Shape Width",
+      "khmer": "ទទឹងរូបរាង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.shapeWidthSlider.accessibleHelpText": {
+      "english": "Adjust width of curve manipulation shape. Width ranges from {$min} to {$max} {$variable} axis units.",
+      "khmer": "កែសម្រួលទទឹងនៃរូបរាងកែប្រែខ្សែក្រាហ្វ។ ទទឹងមានចន្លោះពី {$min} ដល់ {$max} ឯកតាអ័ក្ស {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.predictToggleSwitch.accessibleHelpText": {
+      "english": "Adds a mode that allows you to predict f of {$variable}.",
+      "khmer": "បន្ថែមទម្រង់ដែលអនុញ្ញាតឱ្យអ្នកទស្សន៍ទាយ f នៃ {$variable}។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleNameOn.integral": {
+      "english": "Hide Integral Curve",
+      "khmer": "លាក់ខ្សែក្រាហ្វអាំងតេក្រាល",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleNameOn.primary": {
+      "english": "Hide Primary Curve",
+      "khmer": "លាក់ខ្សែក្រាហ្វចម្បង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleNameOn.derivative": {
+      "english": "Hide Derivative Curve",
+      "khmer": "លាក់ខ្សែក្រាហ្វដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleNameOn.secondDerivative": {
+      "english": "Hide Second Derivative Curve",
+      "khmer": "លាក់ខ្សែក្រាហ្វដេរីវេទីពីរ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleNameOff.integral": {
+      "english": "Show Integral Curve",
+      "khmer": "បង្ហាញខ្សែក្រាហ្វអាំងតេក្រាល",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleNameOff.primary": {
+      "english": "Show Primary Curve",
+      "khmer": "បង្ហាញខ្សែក្រាហ្វចម្បង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleNameOff.derivative": {
+      "english": "Show Derivative Curve",
+      "khmer": "បង្ហាញខ្សែក្រាហ្វដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleNameOff.secondDerivative": {
+      "english": "Show Second Derivative Curve",
+      "khmer": "បង្ហាញខ្សែក្រាហ្វដេរីវេទីពីរ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleHelpText": {
+      "english": "Show or hide curve to support predictions.",
+      "khmer": "បង្ហាញ ឬលាក់ខ្សែក្រាហ្វដើម្បីគាំទ្រការទស្សន៍ទាយ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleContextResponseOff": {
+      "english": "Curve hidden.",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveVisibilityToggleButton.accessibleContextResponseOn": {
+      "english": "Curve shown.",
+      "khmer": "បានបង្ហាញខ្សែក្រាហ្វ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.defaults.accessibleObjectResponse.focusedReleased": {
+      "english": "at {$x}, {$y}, off curve",
+      "khmer": "ត្រង់ {$x}, {$y}, ក្រៅខ្សែក្រាហ្វ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.defaults.accessibleObjectResponse.focusedGrabbed": {
+      "english": "at {$x}, {$y}, grabbed",
+      "khmer": "ត្រង់ {$x}, {$y}, បានចាប់យក",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.defaults.accessibleObjectResponse.grabbed": {
+      "english": "grabbed at {$x}, {$y}, curve modified",
+      "khmer": "បានចាប់យកត្រង់ {$x}, {$y}, ខ្សែក្រាហ្វត្រូវបានកែប្រែ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.defaults.accessibleObjectResponse.released": {
+      "english": "released at {$x}, {$y}, off curve",
+      "khmer": "បានលែងត្រង់ {$x}, {$y}, ក្រៅខ្សែក្រាហ្វ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.defaults.accessibleObjectResponse.movedReleased": {
+      "english": "{$x}, {$y}",
+      "khmer": "{$x}, {$y}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.defaults.accessibleObjectResponse.movedGrabbed": {
+      "english": "{$x}, {$y}, curve modified",
+      "khmer": "{$x}, {$y}, ខ្សែក្រាហ្វត្រូវបានកែប្រែ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.defaults.accessibleRoleDescription.movable": {
+      "english": "movable",
+      "khmer": "អាចរំកិលបាន",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.defaults.accessibleRoleDescription.movableButton": {
+      "english": "movable button",
+      "khmer": "ប៊ូតុងដែលអាចរំកិលបាន",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.primary.accessibleName": {
+      "english": "f Curve Manipulator",
+      "khmer": "ឧបករណ៍កែប្រែខ្សែក្រាហ្វ f",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.primary.accessibleHelpText": {
+      "english": "Move curve manipulator in any direction to set location, then space to grab and dynamically\nmanipulate curve using chosen Curve Manipulation Type.",
+      "khmer": "រំកិលឧបករណ៍កែប្រែខ្សែក្រាហ្វក្នុងទិសដៅណាមួយដើម្បីកំណត់ទីតាំង រួចចុច Space ដើម្បីចាប់យក និងកែប្រែខ្សែក្រាហ្វ\nដោយប្រើប្រភេទនៃការកែប្រែខ្សែក្រាហ្វដែលបានជ្រើសរើស។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.predict.accessibleName": {
+      "english": "Predict Curve Manipulator",
+      "khmer": "ឧបករណ៍កែប្រែខ្សែក្រាហ្វទស្សន៍ទាយ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.curveManipulators.predict.accessibleHelpText": {
+      "english": "Move predict curve manipulator in any direction to set location, then space to grab and \ndynamically manipulate curve using chosen Curve Manipulation Type.",
+      "khmer": "រំកិលឧបករណ៍កែប្រែខ្សែក្រាហ្វទស្សន៍ទាយក្នុងទិសដៅណាមួយដើម្បីកំណត់ទីតាំង រួចចុច Space ដើម្បីចាប់យក និង\nកែប្រែខ្សែក្រាហ្វដោយប្រើប្រភេទនៃការកែប្រែខ្សែក្រាហ្វដែលបានជ្រើសរើស។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.explorationTools.accessibleRoleDescription": {
+      "english": "custom slider",
+      "khmer": "របាររំកិលតាមបំណង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.explorationTools.accessibleHeading": {
+      "english": "Exploration Tools",
+      "khmer": "ឧបករណ៍រុករក",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.explorationTools.accessibleObjectResponse.xPhrase.min": {
+      "english": "at {$variable} min, {$variable} equals {$value}",
+      "khmer": "ត្រង់ {$variable} អប្បបរមា, {$variable} ស្មើ {$value}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.explorationTools.accessibleObjectResponse.xPhrase.max": {
+      "english": "at {$variable} max, {$variable} equals {$value}",
+      "khmer": "ត្រង់ {$variable} អតិបរមា, {$variable} ស្មើ {$value}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.explorationTools.accessibleObjectResponse.xPhrase.other": {
+      "english": "at {$variable} equals {$value}",
+      "khmer": "ត្រង់ {$variable} ស្មើ {$value}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleName": {
+      "english": "Reference Line",
+      "khmer": "បន្ទាត់យោង",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleHelpText": {
+      "english": "Move vertical line horizontally to change {$variable} value and explore y values on all graphs.\nVertical line passes through all graphs at same {$variable} value.",
+      "khmer": "រំកិលបន្ទាត់បញ្ឈរតាមទិសដេកដើម្បីផ្លាស់ប្តូរតម្លៃ {$variable} និងរុករកតម្លៃ y នៅលើក្រាហ្វទាំងអស់។\nបន្ទាត់បញ្ឈរកាត់តាមក្រាហ្វទាំងអស់ត្រង់តម្លៃ {$variable} ដូចគ្នា។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.patterns.primaryDerivative": {
+      "english": "{$xPhrase}, {$primaryPhrase}, {$derivativePhrase}",
+      "khmer": "{$xPhrase}, {$primaryPhrase}, {$derivativePhrase}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.patterns.integralPrimary": {
+      "english": "{$xPhrase}, {$integralPhrase}, {$primaryPhrase}",
+      "khmer": "{$xPhrase}, {$integralPhrase}, {$primaryPhrase}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.patterns.integralPrimaryDerivative": {
+      "english": "{$xPhrase}, {$integralPhrase}, {$primaryPhrase}, {$derivativePhrase}",
+      "khmer": "{$xPhrase}, {$integralPhrase}, {$primaryPhrase}, {$derivativePhrase}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.patterns.primaryDerivativeSecondDerivative": {
+      "english": "{$xPhrase}, {$primaryPhrase}, {$derivativePhrase}, {$secondDerivativePhrase}",
+      "khmer": "{$xPhrase}, {$primaryPhrase}, {$derivativePhrase}, {$secondDerivativePhrase}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.predictAndPrimary": {
+      "english": "{$predictPhrase}, {$primaryPhrase}",
+      "khmer": "{$predictPhrase}, {$primaryPhrase}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.predictUndefined": {
+      "english": "predict f of {$variable} is undefined",
+      "khmer": "ទស្សន៍ទាយ f នៃ {$variable} មិនបានកំណត់",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.predictValue": {
+      "english": "predict f of {$variable} is {$value}",
+      "khmer": "ទស្សន៍ទាយ f នៃ {$variable} គឺ {$value}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.predictHidden": {
+      "english": "predict curve hidden",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វទស្សន៍ទាយ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.primaryUndefined": {
+      "english": "f of {$variable} is undefined",
+      "khmer": "f នៃ {$variable} មិនបានកំណត់",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.primaryValue": {
+      "english": "f of {$variable} is {$value}",
+      "khmer": "f នៃ {$variable} គឺ {$value}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.primaryPhrase.primaryHidden": {
+      "english": "f curve hidden",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វ f",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.integralPhrase.integralValue": {
+      "english": "integral up to {$variable} is {$value}",
+      "khmer": "អាំងតេក្រាលរហូតដល់ {$variable} គឺ {$value}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.integralPhrase.integralHidden": {
+      "english": "integral curve hidden",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វអាំងតេក្រាល",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.derivativePhrase.derivativeUndefined": {
+      "english": "derivative at {$variable} is undefined",
+      "khmer": "ដេរីវេត្រង់ {$variable} មិនបានកំណត់",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.derivativePhrase.derivativeValue": {
+      "english": "derivative at {$variable} is {$value}",
+      "khmer": "ដេរីវេត្រង់ {$variable} គឺ {$value}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.derivativePhrase.derivativeHidden": {
+      "english": "derivative curve hidden",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.secondDerivativePhrase.secondDerivativeUndefined": {
+      "english": "second derivative at {$variable} is undefined",
+      "khmer": "ដេរីវេទីពីរត្រង់ {$variable} មិនបានកំណត់",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.secondDerivativePhrase.secondDerivativeValue": {
+      "english": "second derivative at {$variable} is {$value}",
+      "khmer": "ដេរីវេទីពីរត្រង់ {$variable} គឺ {$value}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.referenceLine.accessibleObjectResponse.secondDerivativePhrase.secondDerivativeHidden": {
+      "english": "second derivative curve hidden",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វដេរីវេទីពីរ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentTool.accessibleName": {
+      "english": "Tangent Tool",
+      "khmer": "ឧបករណ៍បន្ទាត់ប៉ះ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentTool.accessibleHelpText": {
+      "english": "Move vertical line horizontally to change {$variable} value and explore relationship between\nsteepness of visible line tangent to f at {$variable}, and y value on derivative curve at same\n{$variable} coordinate. Information provides current {$variable} value, slope of line tangent\nto f at {$variable}, and value of derivative at {$variable} on derivative curve.",
+      "khmer": "រំកិលបន្ទាត់បញ្ឈរតាមទិសដេកដើម្បីផ្លាស់ប្តូរតម្លៃ {$variable} និងស្វែងយល់ពីទំនាក់ទំនងរវាង\nចំណោទនៃបន្ទាត់ប៉ះដែលអាចមើលឃើញទៅនឹង f ត្រង់ {$variable} និងតម្លៃ y នៅលើខ្សែក្រាហ្វដេរីវេត្រង់កូអរដោណេ\n{$variable} ដូចគ្នា។ ព័ត៌មានផ្ដល់ជូននូវតម្លៃ {$variable} បច្ចុប្បន្ន មេគុណប្រាប់ទិសនៃបន្ទាត់ប៉ះ\nទៅនឹង f ត្រង់ {$variable} និងតម្លៃដេរីវេត្រង់ {$variable} នៅលើខ្សែក្រាហ្វដេរីវេ។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentTool.accessibleObjectResponse.pattern": {
+      "english": "{$xPhrase}, {$slopePhrase}, {$derivativePhrase}",
+      "khmer": "{$xPhrase}, {$slopePhrase}, {$derivativePhrase}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentTool.accessibleObjectResponse.slopePhrase.zero": {
+      "english": "slope is zero",
+      "khmer": "មេគុណប្រាប់ទិសគឺសូន្យ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentTool.accessibleObjectResponse.slopePhrase.positive": {
+      "english": "slope is positive {$absoluteSlope}",
+      "khmer": "មេគុណប្រាប់ទិសគឺវិជ្ជមាន {$absoluteSlope}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentTool.accessibleObjectResponse.slopePhrase.negative": {
+      "english": "slope is negative {$absoluteSlope}",
+      "khmer": "មេគុណប្រាប់ទិសគឺអវិជ្ជមាន {$absoluteSlope}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentTool.accessibleObjectResponse.slopePhrase.hidden": {
+      "english": "f curve hidden",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វ f",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentTool.accessibleObjectResponse.derivativePhrase.derivativeValue": {
+      "english": "derivative at {$variable} is {$value}",
+      "khmer": "ដេរីវេត្រង់ {$variable} គឺ {$value}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.tangentTool.accessibleObjectResponse.derivativePhrase.hidden": {
+      "english": "derivative curve hidden",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វដេរីវេ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveTool.accessibleName": {
+      "english": "Area Under Curve Tool",
+      "khmer": "ឧបករណ៍ផ្ទៃក្រឡាក្រោមខ្សែក្រាហ្វ",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveTool.accessibleHelpText": {
+      "english": "Move vertical line horizontally to change {$variable} value and explore relationship between\ncumulative net signed area under f up to current {$variable} value. Shaded area is bounded by\n{$variable} axis and f curve. Vertical line passes through all graphs at same {$variable} value.\nInformation provides current {$variable} value, value of integral up to {$variable}, and\nnet signed area under f curve.",
+      "khmer": "រំកិលបន្ទាត់បញ្ឈរតាមទិសដេកដើម្បីផ្លាស់ប្តូរតម្លៃ {$variable} និងស្វែងយល់ពីទំនាក់ទំនងរវាង\nផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោម f រហូតដល់តម្លៃ {$variable} បច្ចុប្បន្ន។ ផ្ទៃដែលមានស្រមោលត្រូវបានកំណត់ដោយ\nអ័ក្ស {$variable} និងខ្សែក្រាហ្វ f។ បន្ទាត់បញ្ឈរកាត់តាមក្រាហ្វទាំងអស់ត្រង់តម្លៃ {$variable} ដូចគ្នា។\nព័ត៌មានផ្ដល់ជូននូវតម្លៃ {$variable} បច្ចុប្បន្ន តម្លៃអាំងតេក្រាលរហូតដល់ {$variable} និង\nផ្ទៃក្រឡាសរុបគិតសញ្ញាក្រោមខ្សែក្រាហ្វ f។",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveTool.accessibleObjectResponse.pattern": {
+      "english": "{$xPhrase}, {$integralPhrase}, {$areaPhrase}",
+      "khmer": "{$xPhrase}, {$integralPhrase}, {$areaPhrase}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveTool.accessibleObjectResponse.integralPhrase.integralValue": {
+      "english": "integral up to {$variable} is {$value}",
+      "khmer": "អាំងតេក្រាលរហូតដល់ {$variable} គឺ {$value}",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveTool.accessibleObjectResponse.integralPhrase.hidden": {
+      "english": "integral curve hidden",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វអាំងតេក្រាល",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveTool.accessibleObjectResponse.areaPhrase.zero": {
+      "english": "net signed area is zero under f",
+      "khmer": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាគឺសូន្យនៅក្រោម f",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveTool.accessibleObjectResponse.areaPhrase.positive": {
+      "english": "net signed area is positive {$absoluteArea} under f",
+      "khmer": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាគឺវិជ្ជមាន {$absoluteArea} នៅក្រោម f",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveTool.accessibleObjectResponse.areaPhrase.negative": {
+      "english": "net signed area is negative {$absoluteArea} under f",
+      "khmer": "ផ្ទៃក្រឡាសរុបគិតសញ្ញាគឺអវិជ្ជមាន {$absoluteArea} នៅក្រោម f",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    },
+    "a11y.areaUnderCurveTool.accessibleObjectResponse.areaPhrase.hidden": {
+      "english": "f curve hidden",
+      "khmer": "បានលាក់ខ្សែក្រាហ្វ f",
+      "category": "a11y_screen_reader",
+      "notes": "Optional. Official PhET translations usually leave most a11y/voicing in English. Translate only if you want Khmer for screen readers / spoken feedback. Keep placeholders like {$variable}, {$x}, {{variable}} unchanged."
+    }
+  },
+  "shared_joist_chrome": {
+    "done": {
+      "english": "Done",
+      "khmer": "រួចរាល់",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "menuItem.options": {
+      "english": "Options…",
+      "khmer": "ជម្រើស…",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "menuItem.about": {
+      "english": "About…",
+      "khmer": "អំពី…",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "menuItem.phetWebsite": {
+      "english": "PhET Website…",
+      "khmer": "គេហទំព័រ PhET…",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "menuItem.reportAProblem": {
+      "english": "Report a Problem…",
+      "khmer": "រាយការណ៍បញ្ហា…",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "menuItem.screenshot": {
+      "english": "Screenshot",
+      "khmer": "រូបថតអេក្រង់",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "menuItem.fullscreen": {
+      "english": "Full Screen",
+      "khmer": "ពេញអេក្រង់",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "menuItem.getUpdate": {
+      "english": "Check for Updates…",
+      "khmer": "ពិនិត្យមើលបច្ចុប្បន្នភាព…",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "menuItem.enhancedSound": {
+      "english": "Extra Sound",
+      "khmer": "សំឡេងបន្ថែម",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "title.settings": {
+      "english": "Settings",
+      "khmer": "ការកំណត់",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "termsPrivacyAndLicensing": {
+      "english": "Terms, Privacy & Licensing",
+      "khmer": "លក្ខខណ្ឌ ឯកជនភាព និងអាជ្ញាបណ្ណ",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "privacyPolicy": {
+      "english": "Privacy Policy",
+      "khmer": "គោលការណ៍ឯកជនភាព",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "donateToPhet": {
+      "english": "Donate to PhET",
+      "khmer": "បរិច្ចាគដល់ PhET",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "license.title": {
+      "english": "License",
+      "khmer": "អាជ្ញាបណ្ណ",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "credits.title": {
+      "english": "Credits",
+      "khmer": "ការទទួលស្គាល់ការចូលរួម",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "credits.leadDesign": {
+      "english": "Lead Design: {0}",
+      "khmer": "អ្នកដឹកនាំការរចនា៖ {0}",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "credits.softwareDevelopment": {
+      "english": "Software Development: {0}",
+      "khmer": "ការអភិវឌ្ឍកម្មវិធី៖ {0}",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "credits.team": {
+      "english": "Team: {0}",
+      "khmer": "ក្រុមការងារ៖ {0}",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "credits.contributors": {
+      "english": "Contributors: {0}",
+      "khmer": "អ្នករួមចំណែក៖ {0}",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "credits.qualityAssurance": {
+      "english": "Quality Assurance: {0}",
+      "khmer": "ការធានាគុណភាព៖ {0}",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "credits.graphicArts": {
+      "english": "Graphic Arts: {0}",
+      "khmer": "សិល្បៈក្រាហ្វិក៖ {0}",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "credits.soundDesign": {
+      "english": "Sound Design: {0}",
+      "khmer": "ការរចនាសំឡេង៖ {0}",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "credits.translation": {
+      "english": "Translation",
+      "khmer": "ការបកប្រែ",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "credits.thanks": {
+      "english": "Thanks",
+      "khmer": "ថ្លែងអំណរគុណ",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "options.title": {
+      "english": "Options",
+      "khmer": "ជម្រើស",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "versionPattern": {
+      "english": "version {0}",
+      "khmer": "កំណែ {0}",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "updates.upToDate": {
+      "english": "This simulation is up to date.",
+      "khmer": "ការពិសោធន៍ក្លែងធ្វើនេះគឺទាន់សម័យហើយ។",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "updates.outOfDate": {
+      "english": "New version available",
+      "khmer": "មានកំណែថ្មី",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "updates.checking": {
+      "english": "Checking for updates…",
+      "khmer": "កំពុងពិនិត្យមើលបច្ចុប្បន្នភាព…",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "updates.offline": {
+      "english": "Unable to check for updates.",
+      "khmer": "មិនអាចពិនិត្យមើលបច្ចុប្បន្នភាពបានទេ។",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "updates.newVersionAvailable": {
+      "english": "There is a new version available: {0}.",
+      "khmer": "មានកំណែថ្មីដែលអាចប្រើបាន៖ {0}។",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "updates.yourCurrentVersion": {
+      "english": "Your current version is: {0}.",
+      "khmer": "កំណែបច្ចុប្បន្នរបស់អ្នកគឺ៖ {0}។",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "updates.getUpdate": {
+      "english": "Get Update…",
+      "khmer": "ធ្វើបច្ចុប្បន្នភាព…",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "updates.noThanks": {
+      "english": "No Thanks",
+      "khmer": "ទេ អរគុណ",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "translation.credits.link": {
+      "english": "Translation Credits",
+      "khmer": "ការទទួលស្គាល់ការបកប្រែ",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "thirdParty.credits.link": {
+      "english": "Third-party Credits",
+      "khmer": "ការទទួលស្គាល់ភាគីទីបី",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardShortcuts.title": {
+      "english": "Keyboard Shortcuts",
+      "khmer": "ផ្លូវកាត់ក្តារចុច",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardShortcuts.toGetStarted": {
+      "english": "to get started",
+      "khmer": "ដើម្បីចាប់ផ្តើម",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "simTitleWithScreenNamePattern": {
+      "english": "{{simName}} — {{screenName}}",
+      "khmer": "{{simName}} — {{screenName}}",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed. Keep placeholders like {{name}} or {0} unchanged in Khmer.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "projectorMode": {
+      "english": "Projector Mode",
+      "khmer": "របៀបម៉ាស៊ីនបញ្ចាំង",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.title": {
+      "english": "Preferences",
+      "khmer": "ចំណង់ចំណូលចិត្ត",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.general.title": {
+      "english": "General",
+      "khmer": "ទូទៅ",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.overview.title": {
+      "english": "Overview",
+      "khmer": "ទិដ្ឋភាពទូទៅ",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.simulation.title": {
+      "english": "Simulation",
+      "khmer": "ការពិសោធន៍ក្លែងធ្វើ",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.visual.title": {
+      "english": "Visual",
+      "khmer": "រូបភាព/គំហើញ",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "english": "Interactive Highlights",
+      "khmer": "ការរំលេចពណ៌នៅពេលអន្តរកម្ម",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "english": "Add visual highlights for mouse and touch as you interact.",
+      "khmer": "បន្ថែមការរំលេចពណ៌សម្រាប់កណ្ដុរ និងការប៉ះបញ្ជា នៅពេលអ្នកធ្វើអន្តរកម្ម។",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.visual.projectorModeDescription": {
+      "english": "Increase color contrast for better visibility in classrooms.",
+      "khmer": "បង្កើនកម្រិតច្បាស់នៃពណ៌សម្រាប់ភាពងាយមើលឃើញកាន់តែច្បាស់ក្នុងថ្នាក់រៀន។",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.audio.title": {
+      "english": "Audio",
+      "khmer": "សំឡេង",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.audio.sounds.title": {
+      "english": "Sounds",
+      "khmer": "សំឡេង",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "english": "Extra Sounds",
+      "khmer": "សំឡេងបន្ថែម",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "english": "Audio Features",
+      "khmer": "មុខងារសំឡេង",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.audio.sounds.description": {
+      "english": "Play sonifications and sound effects as you interact.",
+      "khmer": "ចាក់សំឡេងតំណាងទិន្នន័យ និងសំឡេងបែបផែននៅពេលអ្នកធ្វើអន្តរកម្ម។",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "english": "Play additional sound that may be helpful for some learners.",
+      "khmer": "ចាក់សំឡេងបន្ថែមដែលអាចមានប្រយោជន៍សម្រាប់អ្នកសិក្សាមួយចំនួន។",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.input.title": {
+      "english": "Input",
+      "khmer": "ការបញ្ចូល",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.localization.title": {
+      "english": "Localization",
+      "khmer": "ការធ្វើមូលដ្ឋានីយកម្ម",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.localization.languageSelection.title": {
+      "english": "Languages",
+      "khmer": "ភាសា",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.localization.languageSelection.description": {
+      "english": "Change language to translate on-screen text. Additional descriptions, when present, remain in English.",
+      "khmer": "ផ្លាស់ប្តូរភាសាដើម្បីបកប្រែអត្ថបទលើអេក្រង់។ ការពិពណ៌នាបន្ថែម (ប្រសិនបើមាន) នឹងនៅតែជាភាសាអង់គ្លេស។",
+      "category": "shared_joist_chrome",
+      "notes": "Shared PhET menu/preferences chrome. khmer prefilled from function-builder — review and edit if needed.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.general.accessibilityIntro": {
+      "english": "We are adding features to our simulations to make them more inclusive. Some of these features support accessibility for learners with diverse needs and within diverse environments. Explore this menu to review or change the default presentation settings.",
+      "khmer": "យើងកំពុងបន្ថែមមុខងារនានាទៅកាន់ការពិសោធន៍ក្លែងធ្វើរបស់យើង ដើម្បីឱ្យកាន់តែមានលក្ខណៈទូលំទូលាយសម្រាប់អ្នកសិក្សាគ្រប់រូប។ មុខងារមួយចំនួនគាំទ្រដល់លទ្ធភាពប្រើប្រាស់សម្រាប់អ្នកសិក្សាដែលមានតម្រូវការចម្រុះ និងក្នុងបរិយាកាសផ្សេងៗគ្នា។ សូមស្វែងយល់ពីម៉ឺនុយនេះដើម្បីពិនិត្យឡើងវិញ ឬផ្លាស់ប្តូរការកំណត់បទបង្ហាញលំនាំដើម។",
+      "category": "shared_joist_chrome",
+      "notes": "Was missing from initial review set (not in function-builder joist km). Added from mean-share-and-balance.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "preferences.tabs.general.moreAccessibility": {
+      "english": "Look for Inclusive Features on the Simulations Filter page of the PhET website to find all simulations with available features.",
+      "khmer": "ស្វែងរក \"មុខងារបរិយាបន្ន\" នៅលើទំព័រតម្រងការពិសោធន៍ក្លែងធ្វើនៃគេហទំព័រ PhET ដើម្បីស្វែងរកការពិសោធន៍ក្លែងធ្វើទាំងអស់ដែលមានមុខងារទាំងនេះ។",
+      "category": "shared_joist_chrome",
+      "notes": "Was missing from initial review set. Added from mean-share-and-balance.",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    }
+  },
+  "shared_scenery_phet_chrome": {
+    "keyboardHelpDialog.generalNavigation": {
+      "english": "General Navigation",
+      "khmer": "ការរុករកទូទៅ",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.basicActions": {
+      "english": "Basic Actions",
+      "khmer": "សកម្មភាពមូលដ្ឋាន",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "english": "Move to next item",
+      "khmer": "រំកិលទៅធាតុបន្ទាប់",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "english": "Move to previous item",
+      "khmer": "រំកិលទៅធាតុមុន",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.pressButtons": {
+      "english": "Press buttons",
+      "khmer": "ចុចប៊ូតុង",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.resetAll": {
+      "english": "Reset All",
+      "khmer": "កំណត់ឡើងវិញទាំងអស់",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.exitADialog": {
+      "english": "Exit a dialog",
+      "khmer": "ចាកចេញពីផ្ទាំងប្រអប់",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "english": "Toggle checkboxes",
+      "khmer": "បិទ/បើកប្រអប់ធីក",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.or": {
+      "english": "or",
+      "khmer": "ឬ",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.hyphen": {
+      "english": "-",
+      "khmer": "-",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.moveDraggableItems": {
+      "english": "Move Draggable Items",
+      "khmer": "រំកិលធាតុដែលអាចអូសបាន",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.move": {
+      "english": "Move",
+      "khmer": "រំកិល",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "keyboardHelpDialog.moveSlower": {
+      "english": "Move slower",
+      "khmer": "រំកិលឱ្យយឺតជាងមុន",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "ResetAllButton.name": {
+      "english": "Reset All",
+      "khmer": "កំណត់ឡើងវិញទាំងអស់",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    },
+    "SoundToggleButton.name": {
+      "english": "Toggle Sound",
+      "khmer": "បិទ/បើកសំឡេង",
+      "category": "shared_scenery_phet",
+      "source": "copied from quadrilateral review; verify still accurate for this sim"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "done": {
+    "value": "រួចរាល់"
+  },
+  "menuItem.options": {
+    "value": "ជម្រើស…"
+  },
+  "menuItem.about": {
+    "value": "អំពី…"
+  },
+  "menuItem.phetWebsite": {
+    "value": "គេហទំព័រ PhET…"
+  },
+  "menuItem.reportAProblem": {
+    "value": "រាយការណ៍បញ្ហា…"
+  },
+  "menuItem.screenshot": {
+    "value": "រូបថតអេក្រង់"
+  },
+  "menuItem.fullscreen": {
+    "value": "ពេញអេក្រង់"
+  },
+  "menuItem.getUpdate": {
+    "value": "ពិនិត្យមើលបច្ចុប្បន្នភាព…"
+  },
+  "menuItem.enhancedSound": {
+    "value": "សំឡេងបន្ថែម"
+  },
+  "title.settings": {
+    "value": "ការកំណត់"
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "លក្ខខណ្ឌ ឯកជនភាព និងអាជ្ញាបណ្ណ"
+  },
+  "privacyPolicy": {
+    "value": "គោលការណ៍ឯកជនភាព"
+  },
+  "donateToPhet": {
+    "value": "បរិច្ចាគដល់ PhET"
+  },
+  "license.title": {
+    "value": "អាជ្ញាបណ្ណ"
+  },
+  "credits.title": {
+    "value": "ការទទួលស្គាល់ការចូលរួម"
+  },
+  "credits.leadDesign": {
+    "value": "អ្នកដឹកនាំការរចនា៖ {0}"
+  },
+  "credits.softwareDevelopment": {
+    "value": "ការអភិវឌ្ឍកម្មវិធី៖ {0}"
+  },
+  "credits.team": {
+    "value": "ក្រុមការងារ៖ {0}"
+  },
+  "credits.contributors": {
+    "value": "អ្នករួមចំណែក៖ {0}"
+  },
+  "credits.qualityAssurance": {
+    "value": "ការធានាគុណភាព៖ {0}"
+  },
+  "credits.graphicArts": {
+    "value": "សិល្បៈក្រាហ្វិក៖ {0}"
+  },
+  "credits.soundDesign": {
+    "value": "ការរចនាសំឡេង៖ {0}"
+  },
+  "credits.translation": {
+    "value": "ការបកប្រែ"
+  },
+  "credits.thanks": {
+    "value": "ថ្លែងអំណរគុណ"
+  },
+  "options.title": {
+    "value": "ជម្រើស"
+  },
+  "versionPattern": {
+    "value": "កំណែ {0}"
+  },
+  "updates.upToDate": {
+    "value": "ការពិសោធន៍ក្លែងធ្វើនេះគឺទាន់សម័យហើយ។"
+  },
+  "updates.outOfDate": {
+    "value": "មានកំណែថ្មី"
+  },
+  "updates.checking": {
+    "value": "កំពុងពិនិត្យមើលបច្ចុប្បន្នភាព…"
+  },
+  "updates.offline": {
+    "value": "មិនអាចពិនិត្យមើលបច្ចុប្បន្នភាពបានទេ។"
+  },
+  "updates.newVersionAvailable": {
+    "value": "មានកំណែថ្មីដែលអាចប្រើបាន៖ {0}។"
+  },
+  "updates.yourCurrentVersion": {
+    "value": "កំណែបច្ចុប្បន្នរបស់អ្នកគឺ៖ {0}។"
+  },
+  "updates.getUpdate": {
+    "value": "ធ្វើបច្ចុប្បន្នភាព…"
+  },
+  "updates.noThanks": {
+    "value": "ទេ អរគុណ"
+  },
+  "translation.credits.link": {
+    "value": "ការទទួលស្គាល់ការបកប្រែ"
+  },
+  "thirdParty.credits.link": {
+    "value": "ការទទួលស្គាល់ភាគីទីបី"
+  },
+  "keyboardShortcuts.title": {
+    "value": "ផ្លូវកាត់ក្តារចុច"
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "ដើម្បីចាប់ផ្តើម"
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}"
+  },
+  "projectorMode": {
+    "value": "របៀបម៉ាស៊ីនបញ្ចាំង"
+  },
+  "preferences.title": {
+    "value": "ចំណង់ចំណូលចិត្ត"
+  },
+  "preferences.tabs.general.title": {
+    "value": "ទូទៅ"
+  },
+  "preferences.tabs.overview.title": {
+    "value": "ទិដ្ឋភាពទូទៅ"
+  },
+  "preferences.tabs.simulation.title": {
+    "value": "ការពិសោធន៍ក្លែងធ្វើ"
+  },
+  "preferences.tabs.visual.title": {
+    "value": "រូបភាព/គំហើញ"
+  },
+  "preferences.tabs.visual.interactiveHighlights": {
+    "value": "ការរំលេចពណ៌នៅពេលអន្តរកម្ម"
+  },
+  "preferences.tabs.visual.interactiveHighlightsDescription": {
+    "value": "បន្ថែមការរំលេចពណ៌សម្រាប់កណ្ដុរ និងការប៉ះបញ្ជា នៅពេលអ្នកធ្វើអន្តរកម្ម។"
+  },
+  "preferences.tabs.visual.projectorModeDescription": {
+    "value": "បង្កើនកម្រិតច្បាស់នៃពណ៌សម្រាប់ភាពងាយមើលឃើញកាន់តែច្បាស់ក្នុងថ្នាក់រៀន។"
+  },
+  "preferences.tabs.audio.title": {
+    "value": "សំឡេង"
+  },
+  "preferences.tabs.audio.sounds.title": {
+    "value": "សំឡេង"
+  },
+  "preferences.tabs.audio.sounds.extraSounds.title": {
+    "value": "សំឡេងបន្ថែម"
+  },
+  "preferences.tabs.audio.audioFeatures.title": {
+    "value": "មុខងារសំឡេង"
+  },
+  "preferences.tabs.audio.sounds.description": {
+    "value": "ចាក់សំឡេងតំណាងទិន្នន័យ និងសំឡេងបែបផែននៅពេលអ្នកធ្វើអន្តរកម្ម។"
+  },
+  "preferences.tabs.audio.sounds.extraSounds.description": {
+    "value": "ចាក់សំឡេងបន្ថែមដែលអាចមានប្រយោជន៍សម្រាប់អ្នកសិក្សាមួយចំនួន។"
+  },
+  "preferences.tabs.input.title": {
+    "value": "ការបញ្ចូល"
+  },
+  "preferences.tabs.localization.title": {
+    "value": "ការធ្វើមូលដ្ឋានីយកម្ម"
+  },
+  "preferences.tabs.localization.languageSelection.title": {
+    "value": "ភាសា"
+  },
+  "preferences.tabs.localization.languageSelection.description": {
+    "value": "ផ្លាស់ប្តូរភាសាដើម្បីបកប្រែអត្ថបទលើអេក្រង់។ ការពិពណ៌នាបន្ថែម (ប្រសិនបើមាន) នឹងនៅតែជាភាសាអង់គ្លេស។"
+  },
+  "preferences.tabs.general.accessibilityIntro": {
+    "value": "យើងកំពុងបន្ថែមមុខងារនានាទៅកាន់ការពិសោធន៍ក្លែងធ្វើរបស់យើង ដើម្បីឱ្យកាន់តែមានលក្ខណៈទូលំទូលាយសម្រាប់អ្នកសិក្សាគ្រប់រូប។ មុខងារមួយចំនួនគាំទ្រដល់លទ្ធភាពប្រើប្រាស់សម្រាប់អ្នកសិក្សាដែលមានតម្រូវការចម្រុះ និងក្នុងបរិយាកាសផ្សេងៗគ្នា។ សូមស្វែងយល់ពីម៉ឺនុយនេះដើម្បីពិនិត្យឡើងវិញ ឬផ្លាស់ប្តូរការកំណត់បទបង្ហាញលំនាំដើម។"
+  },
+  "preferences.tabs.general.moreAccessibility": {
+    "value": "ស្វែងរក \"មុខងារបរិយាបន្ន\" នៅលើទំព័រតម្រងការពិសោធន៍ក្លែងធ្វើនៃគេហទំព័រ PhET ដើម្បីស្វែងរកការពិសោធន៍ក្លែងធ្វើទាំងអស់ដែលមានមុខងារទាំងនេះ។"
+  }
+}

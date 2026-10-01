@@ -1,0 +1,47 @@
+{
+  "keyboardHelpDialog.generalNavigation": {
+    "value": "ការរុករកទូទៅ"
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "សកម្មភាពមូលដ្ឋាន"
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "រំកិលទៅធាតុបន្ទាប់"
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "រំកិលទៅធាតុមុន"
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "ចុចប៊ូតុង"
+  },
+  "keyboardHelpDialog.resetAll": {
+    "value": "កំណត់ឡើងវិញទាំងអស់"
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "ចាកចេញពីផ្ទាំងប្រអប់"
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "បិទ/បើកប្រអប់ធីក"
+  },
+  "keyboardHelpDialog.or": {
+    "value": "ឬ"
+  },
+  "keyboardHelpDialog.hyphen": {
+    "value": "-"
+  },
+  "keyboardHelpDialog.moveDraggableItems": {
+    "value": "រំកិលធាតុដែលអាចអូសបាន"
+  },
+  "keyboardHelpDialog.move": {
+    "value": "រំកិល"
+  },
+  "keyboardHelpDialog.moveSlower": {
+    "value": "រំកិលឱ្យយឺតជាងមុន"
+  },
+  "ResetAllButton.name": {
+    "value": "កំណត់ឡើងវិញទាំងអស់"
+  },
+  "SoundToggleButton.name": {
+    "value": "បិទ/បើកសំឡេង"
+  }
+}
